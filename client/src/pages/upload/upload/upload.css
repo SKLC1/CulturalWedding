@@ -3,12 +3,59 @@
   flex-direction: column;
   width: 25%;
   height: 80vh;
-  border: 1px solid black;
-  border-radius: 20px;
   margin: auto;
   margin-top: 20px;
   align-items: center;
   justify-content: space-evenly;
   background-color: antiquewhite;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lora', serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+input {
+  font-family: 'Lora', serif;
+}
+
+.title-field input{
+  margin-top: 10px;
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  border-width: 1px;
+  
+  
+}
+
+.img-field input{
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  border-width: 1px;
+
+}
+.Description-field input {
+  margin-top: 20px;
+  width: 500px;
+  height: 150px;
+  border-radius: 15px;
+  border-width: 1px;
+  
+}
+.btn-submit{
+  font-family: 'Lora', serif;
+}
+.btn-submit {
+   border-radius: 20px;
+   width: 140px;
+   height: 40px;
+   background-color: rgb(249, 229, 154);
+   border-color: antiquewhite;
+   font-weight: bold;
+}
+
+.btn-submit:hover {
+  background-color: rgb(244, 220, 134);
+
 }

@@ -1,3 +1,5 @@
+import "./dropdown.css"
+
 import React from "react";
 
 const Dropdown = ({ label, value, options, onChange }) => {
@@ -5,7 +7,7 @@ const Dropdown = ({ label, value, options, onChange }) => {
     <label>
       {label}
       <br></br>
-      <select value={value} onChange={({ target }) => onChange(target.value)}>
+      <select value={value} onChange={({ target }) => onChange(target.value)} className="select-tag">
         {options.map((option) => (
           <option key={option.value} value={option.value}>{option.label}</option>
         ))}
