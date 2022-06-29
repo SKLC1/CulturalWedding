@@ -42,6 +42,13 @@ userSchema.statics.findByCredentials = async (email, password) => {
   return user;
 };
 
+userSchema.methods.toJSON = function () {
+  const public = this.toObject();
+  delete public.password;
+  delete public.tokens;
+  return public;
+};
+
 userSchema.pre("save", async function (next) {
   if (this.isModified("password")) {
     this.password = await bcrypt.hash(this.password, 8);

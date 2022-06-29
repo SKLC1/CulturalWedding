@@ -5,6 +5,7 @@ const auth = require("../db/middleware/auth.js");
 const users = Router();
 
 users.post("/", async (req, res) => {
+  console.log(req.body);
   try {
     const user = new User(req.body);
     await user.save();

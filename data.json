@@ -1,0 +1,821 @@
+[
+  {
+    "name": "Signature dishes from 50 countries around the world",
+    "food": [
+      {
+        "description": "Stacker compiled a list of signature dishes from 50 of the world’s nations, drawing upon travelogues, news reports, food writers and experts, historical accounts, and global data. The findings are mouthwatering. Bon appétit!",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/sar_screen_maximum_large/s3/2022-02/poutine.png"
+      }
+    ]
+  },
+  {
+    "name": "Argentina",
+    "food": [
+      {
+        "title": " Asados",
+        "description": "True to its international reputation for raising top-notch beef cattle, Argentina’s national dish is asados—an array of grilled meats sizzling over an open flame. Typically they would include steaks, ribs, and sausages as well as chorizo and chitterlings from pork. This dish dates to Argentina’s 16th century colonization by Western Europeans who introduced beef cattle to the region.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/02argentinaSIKH.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Azerbaijan",
+    "food": [
+      {
+        "title": " Plov",
+        "description": "Nestled between the Caucasus Mountains and the Caspian sea, Asia’s Azerbaijan specializes in plov, a rice-based pilaf in broth. Made in dozens of variations featuring lamb, saffron, fried apricots, and honey, plov is served at special occasions like weddings. Some experts say plov came from Persia.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/03azarbajanplovC8GV.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Bahamas",
+    "food": [
+      {
+        "title": " Cracked conch",
+        "description": "Conch is served any number of ways in the Bahamas, but the hallmark version is cracked conch, which is breaded and deep fried. The name comes from the method of tenderizing the chewy shellfish—cracking calls for pounding the meat with a mallet or even a frying pan. For many years, McLean's Town on Grand Bahama Island has hosted an annual Conch Cracking Contest.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/04bahamascrackedconch8ALB.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Bahrain",
+    "food": [
+      {
+        "title": " Machboos",
+        "description": "The national dish of Bahrain, spicy chicken machboos, can be found across the Middle East, but it is particularly delicious in the Gulf island nation where it is a tradition at Friday family lunches. Machboos mixes Persian and Indian flavors, with an array of spices like ginger, coriander, chilis, mint, turmeric, cardamom, cinnamon, saffron, and nutmeg, and the same cooking water used to cook the meat is used to cook the rice to blend the flavors.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/05bahrainHF72.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Barbados",
+    "food": [
+      {
+        "title": " Cou cou and flying fish",
+        "description": "The Caribbean island of Barbados is known for its delicious food, especially its specialty cou cou and flying fish. Cou cou is made from cornmeal and okra, traditionally molded into shapes using bottle gourds of the calabash tree, and the flying fish can be fried, steamed, or stewed in spices and tomatoes.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/06cocoCN2V.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Bhutan",
+    "food": [
+      {
+        "title": " Ema datshi",
+        "description": "Bhutan has an array of popular dishes, many influenced by neighboring India, Tibet, and China, but one of its best local offerings is ema datshi, or chilies and cheese. It’s a stew with onions, tomatoes, soft cheese from yak or cow’s milk, and chilies that can pack a punch.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/07bhutanO04E.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Brazil",
+    "food": [
+      {
+        "title": " Feijoada",
+        "description": "Brazil’s rich, hearty feijoada is made with black beans and cuts of pork, including organ meats. Many believe the dish originated with enslaved people who created stew with the leftovers from slavers, but a recent challenge to that theory says it was brought to Brazil by European settlers. The popular dish does reflect the needs of those who could afford only tougher, less costly cuts of meat that need to be stewed for tenderizing.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/08brazil5Z31.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Bulgaria",
+    "food": [
+      {
+        "title": " Shopska",
+        "description": "A Bulgarian shopska salad is made up of coarsely chopped tomatoes and cucumbers, green peppers, and onions, topped with grated sirene cheese. Rather than being a longtime national tradition, it was invented in the 1960s by state tourism officials who wanted to showcase Bulgaria’s vegetables, and the ingredients were selected in part to reflect the white, green, and red hues of the Bulgarian flag. It was promoted as a traditional healthy dish, but historians have said Bulgarians did not eat salad before the 20th century and subsisted instead on beans, turnips, onions, and cabbage.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/09bulgaria041F.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Cambodia",
+    "food": [
+      {
+        "title": " Fish amok",
+        "description": "A thick custard-like curry called fish amok is the notable dish from Southeast Asia’s Cambodia. The sauce is a creamy mix of lemongrass, ginger, turmeric, and coconut milk, and the fish is served in a banana leaf or coconut shell. Amok is the name of the cooking method of steaming food inside banana leaves.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/10cambodiaTSSG.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Canada",
+    "food": [
+      {
+        "title": " Poutine",
+        "description": "Canada’s popular poutine consists of fries and cheese curds, topped with a thick brown gravy. It was first served in the 1950s in rural snack bars in Quebec but now can be found nearly everywhere. It has become a symbol of Québécois culture.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/08poutineUMOE_0.jpg"
+      }
+    ],
+    "tradition": [
+      {
+        "title": " Money Dance ",
+        "description": "At French-Canadian ceremonies, the couple's older, unmarried siblings traditionally perform a dance, all wearing wacky, brightly colored socks. As they dance, guests throw money at them which is then collected and presented to the newlyweds.",
+        "imgURL": "https://www.brides.com/thmb/E-VPJEnNIppBc8HrKcnm00CcLaU=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/brides.com-35-335c5ad693134cb491a5203ae3bc40ce.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": "Chile",
+    "food": [
+      {
+        "title": " Curanto",
+        "description": "In Chile, curanto is a festive stew combining vegetables and an impressive array of meat and seafood, including chicken, pork ribs, chorizo sausages, clams, and mussels. It is traditionally cooked in a hole in the ground in stones that have been heated in a bonfire. The pot is covered in wet sacks, creating a pressure cooker.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/12chileUS72.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Colombia",
+    "food": [
+      {
+        "title": " Bandeja paisa",
+        "description": "This mouth-watering platter from Colombia’s Andean region, where people are called paisas, features rice, beans, fried pork bellies called chicharron, powdered beef, and chorizo pork sausage. Also included are cheese arepas, which are cakes typically made from cornmeal, avocado, fried ripe plantains, and a fried egg, topped with a seasoning sauce called hogao.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/13colombiaH9PB.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Comoros",
+    "food": [
+      {
+        "title": " Langouste à la Vanille",
+        "description": "The Comoros’ specialty is langouste à la vanille, which is roast lobster in vanilla sauce. It combines two of the islands’ best-known and abundant products—South African rock lobster and vanilla beans, a significant local crop. The briny seafood mixes with the aromatic vanilla, with additions of white wine, shallots, and butter brought by French colonizers.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/14comorosYYLT.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Croatia",
+    "food": [
+      {
+        "title": " Peka",
+        "description": "Croatia’s peka is baked in a unique style, under a bell-shaped lid that is covered with embers. Its ingredients are a variety of meat, like chicken, sausage, or veal, but an especially popular version is made with octopus. Archaeological digs in eastern Croatia have uncovered clay peka pots more than 5,000 years old.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/15croatiaT30J.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Cuba",
+    "food": [
+      {
+        "title": " Ropa vieja",
+        "description": "Cuba’s signature dish of shredded beef and vegetables is ropa vieja, which means old clothes in Spanish. Some say the name stems from its resemblance to a heap of colorful rags, but a more captivating tale says long ago, a poor man in Spain who could not afford food for his starving family shredded and cooked his own clothes. He prayed over the pot and a miracle took place, transforming the contents into a rich meat stew.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/16cuba9DV0.jpg"
+      }
+    ],
+    "tradition": [
+      {
+        "title": " The Money Dance ",
+        "description": "It's a Cuban custom that every man who dances with the bride must pin money to her dress to help the couple pay for their wedding and honeymoon. Bank on it!",
+        "imgURL": "https://www.brides.com/thmb/3EVzibTa6H-rr3PDgnhG33UiUzM=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ashling-and-andrew-wedding-whitney-neal-studios_31-51a487eddfb84beb95c48159576f2a7e.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": "Cyprus",
+    "food": [
+      {
+        "title": " Koupepia",
+        "description": "Like much of the cuisine in Cyprus, koupepia reflects the nation's history of poverty, where fresh vegetables are consumed more than meat. Koupepia are grape leaves, stuffed with rice, spices, and some minced pork or beef, cooked in tomato sauce. They are served warm.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/16cyorus02R3.jpg"
+      }
+    ]
+  },
+  {
+    "name": "El Salvador",
+    "food": [
+      {
+        "title": " Pupusa",
+        "description": "The Legislative Assembly of El Salvador declared pupusa the national dish and designated an annual National Pupusas Day. Papusas are thick corn tortillas filled with cheese and sometimes seasoned pork or loroco, a vine flower bud. The indigenous Pipil who once inhabited the Central American region made papusas centuries ago, and the utensils they used to cook them have been found in archaeological excavations. The earliest papusas were filled with squash flowers, greens, and blackberries.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/18elsalvadorOOEC.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Estonia",
+    "food": [
+      {
+        "title": " Verivorst",
+        "description": "Estonia’s distinctive dish is verivorst, or blood sausage, served in winter, especially at Christmastime. Barley, onions, spices, and blood are stuffed inside the casing of a pig intestine. The sausages, accompanied by sauerkraut, butter, sour cream, and a berry compote, may be baked or fried, and are typically served as a first course. Like versions of black pudding in England and mustamakkara in Finland, it is a testament to the use of the whole animal, leaving little to waste.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/19estoniaRHQC.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Equatorial Guinea",
+    "food": [
+      {
+        "title": " Succotash",
+        "description": "In Equatorial Guinea, nestled on the Atlantic coast between Gabon and Cameroon, the trademark dish is succotash, an inexpensive but protein-rich dish of corn and lima beans stewed in tomatoes. It is a staple in the Central African nation, one of the poorest in the world, where three-quarters of the population lives in poverty. Succotash actually originated in the U.S. South, and former enslaved people returning to Africa following the Civil War took the recipe with them.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/20eguineaMVUL.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Ethiopia",
+    "food": [
+      {
+        "title": " Doro wat",
+        "description": "Ethiopia’s hallmark dish is doro wat, a stew of chicken and eggs, flavored with berbere, a spice mixture of coriander, cumin, cardamom, chilies, cloves, fenugreek, cinnamon, ginger, turmeric, nutmeg, and allspice. Some traditional preparations begin with the slaughter of a chicken that is cut into 12 parts, which some believe is intended to reflect the 12 disciples of Christ.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/s21ethiopia80S4.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Fiji",
+    "food": [
+      {
+        "title": " Kokoda",
+        "description": "Fitting for the South Pacific nation of more than 300 islands, the national dish of Fiji, called kokoda, is a ceviche of raw white fish like snapper or mahi-mahi, marinated in lime or lemon juice and mixed with diced tomatoes, chilies, onion, and coconut cream. Traditionally it is served in the shell of a coconut or giant clam.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/22fijiHNLJ.jpg"
+      }
+    ],
+    "tradition": [
+      {
+        "title": " Presenting a Whale's Tooth ",
+        "description": "In Fiji, when a man asks a woman's father for her hand in marriage, he must present his future father-in-law with a whale's tooth.",
+        "imgURL": "https://www.brides.com/thmb/_w6HFIJuA3HeP37x-YscKq-Zgmc=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2016__10__24__580e43f365530946e8810e14_2015_bridescom-Editorial_Images-07-wedding-traditions-around-the-world-Large-wedding-traditions-around-the-world-fiji-tooth-19e190d30267455c83ffb06ded51ba89.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": "Gambia",
+    "food": [
+      {
+        "title": " Domoda",
+        "description": "The national dish of Gambia, Africa’s tiniest country, is domoda, a peanut stew with a vegetable like pumpkin or sweet potato, tomatoes, and spices. Like many dishes in the West African nation, its vegetarian character reflects a community where most people cannot afford meat. About half the population lives in poverty, according to World Bank data.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/23gambiaNJ9I.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Georgia",
+    "food": [
+      {
+        "title": " Khachapuri",
+        "description": "Khachapuri in the nation of Georgia is a savory pie made with a salty cheese called sulguni. Each region of the Eurasian nation on the Black Sea coast has its own version, differentiated by ingredients or shape. In one version, the dough is first boiled, then layered with cheese like a dish of lasagna before baking. In another, the dough is leavened, and the final serving is topped with a lump of butter and a raw egg.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/30georgiaOBRX_0.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Germany",
+    "food": [
+      {
+        "title": " Sauerbraten",
+        "description": "Germany’s sauerbraten is roasted beef, veal, or venison, marinated for several days in vinegar, wine, vegetables, and various spices that tenderize the meat. Historically it was made with horse meat. It dates back thousands of years, when meat was preserved in red wine to be carried to Roman settlements.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/25germanyB10C.jpg"
+      }
+    ],
+    "tradition": [
+      {
+        "title": " Polterabend ",
+        "description": "In their first bit of housekeeping together, German couples traditionally clean up piles of porcelain dishes that their guests have thrown on the ground to ward off any evil spirits. The lesson of this \"Polterabend\": While working together, the two partners can face any challenge thrown their way.",
+        "imgURL": "https://www.brides.com/thmb/DHsTFTOC3zfmQPTcl-UcFxZez8k=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2016__10__24__580e43f5fac24a31e1faad50_2015_bridescom-Editorial_Images-07-wedding-traditions-around-the-world-wedding-traditions-around-the-world-Large-wedding-traditions-around-the-world-lea-boeckmann-d31ff389c02e4aecb36a5a9e5c8fd51c.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": "Guyana",
+    "food": [
+      {
+        "title": " Pepperpot",
+        "description": "Guyana’s unique pepperpot, especially popular at Christmastime, is stewed beef and oxtail in a sauce of cassava root extracts, peppers, and cinnamon. Its origins lie with indigneous people who used cassareep, an extract of the cassava root that is sweet and syrupy, for its preservative qualities. Making and bottling cassareep is a common source of income for local residents. Traditional versions of pepperpots used goat meat and the feet of pigs and cows.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/26guyanaOHUD.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Hungary",
+    "food": [
+      {
+        "title": " Goulash",
+        "description": "Goulash was created by cowherds tending cattle for months at a time on Hungary’s wild grasslands and cooked in large cauldrons over open fires. The paprika-laden dish spread in popularity as nationalist Hungarians in the early 19th century began to chafe at rule by the Habsburg dynasty and promoted traditional customs and peasant culture.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/27hungaryRXBK.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Iceland",
+    "food": [
+      {
+        "title": " Hakarl",
+        "description": "In Iceland, the best-known delicacy is hakarl, which is rotten shark. It is the meat of the Greenland shark, which is toxic if not fermented. It is said Hakarl was invented by original settlers about a thousand years ago in Iceland, where little grows in its volcanic soil, who learned to bury the meat for several months to break down its toxins. It has an unpleasant taste of urine because sharks lack a urinary system and release urine through their bloodstream and tissue.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/28iceland2VFN.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Jordan",
+    "food": [
+      {
+        "title": " Mansaf",
+        "description": "Jordan’s traditional mansaf consists of meat and rice, cooked in a sauce of fermented dried yogurt. It originated with the nomadic Bedouins, who used camel or lamb meat. It is served at weddings, funerals, religious holidays, and other occasions, and traditionally eaten communally, with diners standing around a table, using their right hands as scoops and keeping their left hands in fists behind their backs.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/29jordan4K78.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Kazakhstan",
+    "food": [
+      {
+        "title": " Beshbarmak",
+        "description": "Beshbarmak from Kazakhstan, traditionally made with horse or mutton but also beef or lamb, is a dish of boiled meat with noodles. It is traditionally served in a large platter on a Darsakstan, which is a low table, or on a clear cloth spread on the floor. The host serves pieces of meat to guests on the basis of their standing—pelvic and shin bones are reserved for elderly guests of honor while girls get bits of cervical vertebra.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/30kazaksthan9PT9.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Korea",
+    "food": [
+      {
+        "title": " Kimchi",
+        "description": "The fermented cabbage that is Korea’s trademark, kimchi has an ancient history on the North Pacific peninsula, where residents have long found ways to preserve vegetables through the frigid winters. Its flavors of sweet, sour, spicy, bitter, and salty reflect the Five Elements theory of Korean culture.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/31koreaO77G_1.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Lebanon",
+    "food": [
+      {
+        "title": " Kibbeh",
+        "description": "Kibbeh is a spiced mixture of bulgur wheat and lamb, typically baked or fried. In a raw version, kibbeh nayyeh, the bulgur, meat, and pureed onions are blended together with ice water and served with olive oil and flatbread. Kibbeh nayyeh was originally served on Sundays and feast days, the traditional occasions when the Lebanese would slaughter animals and have fresh raw meat.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/32lebanon5IOA.jpg"
+      }
+    ],
+    "tradition": [
+      {
+        "title": " Music and Dancing Before the Ceremony ",
+        "description": "In Lebanon, the wedding celebration, known as the Zaffe, gets off to a rowdy start with music, belly dancing, and shouting at both the groom's and bride's homes courtesy of the couple's friends, family, and, occasionally, professional dancers and musicians. Eventually, everyone ends up at the bride's house, where the couple is showered with blessings and flower petals as they leave for the ceremony.",
+        "imgURL": "https://www.brides.com/thmb/B0pk1FCDWrsqX3R2qyLKoZIZwcs=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/gaby-and-sachal-wedding-24-7525b8d7c05c48449e1d34555706713f.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": "Luxembourg",
+    "food": [
+      {
+        "title": " Judd mat gaardebounen",
+        "description": "In Luxembourg, judd mat gaardebounen is widely considered the national food. It is made with smoked pork neck, also called a pork collar, soaked and stewed until tinder and combined with spices, vegetables, potatoes, and broad beans. Diners in Luxembourg restaurants are warned that portions of the dish typically are huge. Experts say judd mat gaardebounen was likely to have been introduced by Spanish troops in the 16th or 17th century.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/33luxembirg6JNY.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Madagascar",
+    "food": [
+      {
+        "title": " Romazava",
+        "description": "In Madagascar, the island nation off the southeast coast of Africa, a one-pot meal called romazava is the signature dish. It features seasoned cubes of pork, beef, and chicken, mixed with heaps of leafy greens. Locally, it is often made with meat from zebu, a breed of humped cows that are believed to be the world’s oldest domesticated cattle, and from paracress, mustard greens, and anamamy, but cooks elsewhere use spinach and arugula.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/34madagascarWZQY.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Malta",
+    "food": [
+      {
+        "title": " Stuffat tal-fenek",
+        "description": "The Mediterranean nation of Malta is known for stuffat tal-fenek, or rabbit stew. Not native to the Maltese islands, rabbits were introduced by the Phoenicians. In the 18th century, Malta was overseen by a Catholic military order known as the Knights Hospitallier who restricted rabbit-hunting to protect the supply. When tensions with the overseers grew, hunting and eating rabbit became a sign of local resistance. Stuffat tal-fenek is cooked slowly to tenderize the meat, which is mixed with a sauce of tomatoes, garlic, and red wine.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/35malta1UXJ.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Mexico",
+    "food": [
+      {
+        "title": " Mole",
+        "description": "Mexico’s mole is a distinctive sauce made from chilies, onions, garlic, spices, ground nuts like almonds or pumpkin seeds or sesame seeds, and bittersweet dark chocolate. It might be yellow, red, pink, green, or black. Many versions of mole have more than 30 ingredients. In mole, the peppers contain capsicum that triggers the release of adrenaline. The chocolate has caffeine that releases endorphins that cause a sense of well-being and tryptophan, an amino acid that helps produce serotonin, which the body uses to regulate the appetite, moods, and sleep.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/36molemexico2H2H.jpg"
+      }
+    ],
+    "tradition": [
+      {
+        "title": " Wedding Lasso ",
+        "description": "During the ceremony, as a Mexican couple is exchanging their vows, a \"lazo,\" or lasso, made of rosary beads and flowers is draped around their shoulders in the shape of a figure eight. Not only does \"el lazo\" represent the union of the couple, but its shape also resembles the infinity symbol, signifying just how long they're hoping the marriage will last.",
+        "imgURL": "https://www.brides.com/thmb/4s61iN7NwRDbEslCTUdhf90aCd4=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/lassoceremony-7591d0c2541447d7b831f1eb13db32a0.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": "Mongolia",
+    "food": [
+      {
+        "title": " Buuz",
+        "description": "Mongolia’s steamed dumplings, called buuz, are filled with seasoned minced mutton or beef and cooked on a stove at the center of a yurt. Buuz is the traditional dish served during White Moon, the Mongolian lunar new year. For the celebration, families prepare thousands of buuz in advance and freeze them.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/37mongolia9492.jpg"
+      }
+    ],
+    "tradition": [
+      {
+        "title": " Chicken Liver Tradition ",
+        "description": "A Mongolian couple hoping to set a wedding date must first kill a baby chicken and cut it apart, holding the knife together, to find a healthy liver. They keep at it until they're successful.",
+        "imgURL": "https://www.brides.com/thmb/UgRRqNyUaHQMxcxHn6pombUBDmY=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-155096602-b5a6246edd7d4751a4911220c504e8d3.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": "Monaco",
+    "food": [
+      {
+        "title": " Barbgiuan",
+        "description": "In the tiny principality of Monaco, the star dish is barbagiuan, a savory pastry traditionally filled with Swiss chard or pumpkin and ricotta. On typical days, barbagiuan is consumed as appetizers or snacks, but it is particularly popular on Monaco’s national day of Nov. 19.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/38monoco7XZU.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Netherlands",
+    "food": [
+      {
+        "title": " Stamppot",
+        "description": "Stamppot, also called hutspot, is the hearty signature dish of the Netherlands, laden with mashed potatoes, vegetables, and smoked sausage. Popular versions are made with kale, sauerkraut, onions, carrots, endive, and leeks. The dish is made each Oct. 3 in the city of Leiden to celebrate its resistance to Spain. As legend has it, Leiden endured a one-year siege by Spanish forces in the late 16th century. When the Spanish were driven away, they left behind a stew that starving locals ate and made a lasting symbol of their victory.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/39netherlandsP019.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Papua New Guinea",
+    "food": [
+      {
+        "title": " Mumu",
+        "description": "In Papua New Guinea, mumu is an assortment of root vegetables, pork, chicken, coconut, and pineapple. It’s eaten without utensils. Mumu also refers to the slow-cooking method, in which a makeshift outdoor oven is constructed of stones.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/40newguinea39G9.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Portugal",
+    "food": [
+      {
+        "title": " Bacalhau",
+        "description": "It is said there are as many ways to cook the dried, salted codfish bacalhau that is Portugal’s national dish as there are days in the year. It is often served with cream and potatoes or formed into croquettes. It dates at least as far back as the 15th century, when Portugal was an explorer country, and the fish could be kept onboard ships for long ocean voyages.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/41portugal90I0.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Russia",
+    "food": [
+      {
+        "title": " Pelmeni",
+        "description": "Amid an array of competing Russian delicacies, a plate of steaming pelmeni takes first place as the nation’s signature dish. Pelmeni are dumplings filled with pork, beef, lamb, fish or sometimes mushrooms, boiled or perhaps fried, and served with sour cream. It’s believed the dumplings were carried by nomadic Mongols traveling across Siberia and the Urals. Not only do they travel well, but pelmeni can be kept frozen for a long time without losing their flavor, perfect for palates in Russia and Siberia where the dumplings often are stored outside in winter.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/42russiaSXP3.jpg"
+      }
+    ],
+    "tradition": [
+      {
+        "title": " Karavay ",
+        "description": "Now this is a sweet tradition. Newly married Russian couples share a wedding sweetbread called \"karavay,\" decorated with wheat for prosperity and interlocking rings for faithfulness. Whoever takes the biggest bite—husband or wife—without using their hands is considered the head of the family.",
+        "imgURL": "https://www.brides.com/thmb/yGqT2vKwHZHMpk51NJYbekR-FJk=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1202471153-d83fa74de12d41aa80b2ed4a57372f4f.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": "Scotland",
+    "food": [
+      {
+        "title": " Haggis",
+        "description": "Scotland’s haggis stems from an age-old tradition of letting no part of a food animal go to waste. It consists of sheep’s heart, liver, and lungs ground up, sautéed with onions, wrapped in a sheep stomach, and simmered in spiced sheep stock with oatmeal. It once was a particularly important food for shepherds and traveling merchants. While haggis is eaten year-round, it is celebrated on Jan. 25, Burns Night, marking the birthday of Scottish national poet Robert Burns, who wrote “Address to a Haggis” in its honor.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/43scotlandIXK2.jpg"
+      }
+    ],
+    "tradition": [
+      {
+        "title": " Eloping ",
+        "description": "Centuries ago, England restricted marriage to couples who were 21 and over. But that didn't stop young lovers from finding a loophole—in this case, a nearby Scottish town without such limitations. Today, that village, Gretna Green, is still popular for couples who want to elope.",
+        "imgURL": "https://www.brides.com/thmb/ZxvcsgujxaHyIV2tFAz808i3vkE=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2018__08__01__5b61e55a13b1127f1175dae8_lauren-and-patrick12-615cbf1ef3fc458b94ffa7be93254f88.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": "South Africa",
+    "food": [
+      {
+        "title": " Bobotie",
+        "description": "The crusty meatloaf of South Africa, bobotie, arrived with 17th century settlers from Indonesia and was adapted by local residents. Made with lamb or beef, it is flavored with curry, ginger, raisins, dried apricots, and walnuts or almonds. The meatloaf is slathered with milk and egg that bakes into a custard crust.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/44southafricaRRYB.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Spain",
+    "food": [
+      {
+        "title": " Paella",
+        "description": "The name of Spain’s national dish of paella—laden with rice, seafood or meat, and flavored with saffron—comes from the Latin word patella meaning dish or platter. It is traditionally cooked over an open fire in a shallow, flat-bottomed pan to take best advantage of quick, hot flames in a land that lacks forests of slow-burning firewood. It is also traditional to eat paella family style, straight from the pan without plates.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/45spain2F2I.jpg"
+      }
+    ],
+    "tradition": [
+      {
+        "title": " Cutting the Tie ",
+        "description": "At some Spanish weddings, the groom's friends will take scissors and chop up his tie, then sell the pieces to guests to raise more money for the newlyweds. The same practice is sometimes applied to the bride's garter, as well. Anything for a few extra bucks!",
+        "imgURL": "https://www.brides.com/thmb/_sat45NcYuDC8JAcpFDofuN2h6s=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/macarena-and-josewedding-03-a1fa6b13ec2a4c5abd7c463bd0479f6d.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": "Thailand",
+    "food": [
+      {
+        "title": " Pad thai",
+        "description": "Pad thai is an enormously popular signature dish of Thailand found around the world for good reason. It’s a mix of stir-fried rice noodles with fish sauce, seafood, scrambled eggs, tamarind pulp, bean sprouts, and roasted peanuts. It originated in the late 1930s when the government held a competition to decide upon a national dish, about the same time that the nation’s name changed from Siam, and residents were encouraged to eat it as an act of patriotism. In 2002, the government launched a campaign to popularize the dish globally and increase the number of Thai restaurants internationally.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/46thailand1WKL.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Turkey",
+    "food": [
+      {
+        "title": " Doner kebab",
+        "description": "Turkey is known for meats grilled on rotisseries called doner kebabs. As Turks and other immigrants moved to Western Europe, taking with them their favorite dishes, doner kebabs have become a symbol of political and ethnic tensions. In 2017, a committee of the European Parliament tried to ban the phosphate additives used in frozen kebab meat, prompting an uproar that the move was ethnically motivated. Some cities have implemented bans, ostensibly to protect local culinary traditions, and right-wing politicians in France have called for limits on doner kebab vendors.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/47turkeyQ3F8.jpg"
+      }
+    ],
+    "tradition": [
+      {
+        "title": " Hanging Flags ",
+        "description": "Friends of the groom plant the Turkish flag, which features a red crescent and star, in the ground at his home on the day he is to wed. Depending on the area, objects like fruit, vegetables, and even mirrors are placed on top, signifying that the wedding ceremony has begun.",
+        "imgURL": "https://www.brides.com/thmb/1ic9X9MFpLohe2j2R913eYoUi9s=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1187877572-db30891e0b2f4d81a3edb380e7443b07.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": "Uganda",
+    "food": [
+      {
+        "title": " Matooke",
+        "description": "Matooke, the national dish of Uganda, is made from green bananas that are peeled, wrapped in their leaves, set in a pot on banana plant stalks and steamed for hours. It is served with a sauce of vegetables or ground nuts. This dish is one of the oldest in the world, and according to legend it was brought to Earth by Kintu, the first man.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/48ugandaLQ56.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Vanuatu",
+    "food": [
+      {
+        "title": " Lap lap",
+        "description": "In the South Pacific islands of Vanuatu, formerly the French and English New Hebrides, the national dish of lap lap consists of mashed bananas, breadfruit, and grated taro or yam wrapped in banana leaves and cooked in an underground or earthen oven called an uma. It is often mixed with pork or chicken or even a type of large bat known as flying fox meat, but modern health experts caution strongly against eating bats.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/49vanuatuY1XC.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Vietnam",
+    "food": [
+      {
+        "title": " Goi cuon",
+        "description": "The delicate goi cuon is a type of spring roll, filled with pork, prawns, rice noodles, and vegetables, wrapped in rice paper. It’s dipped in a chili sauce or hoisin sauce made from fermented soybean paste. According to legend, goi cuon, which literally means salad roll, was invented in the 18th century when warring soldiers needed food that was light and easy to transport as they traveled.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/50vietnamRUP1.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Yemen",
+    "food": [
+      {
+        "title": " Saltah",
+        "description": "A thick, hearty stew called saltah, often served as a lunchtime meal, is considered the national dish of Yemen. Its distinctive flavors stem from hilbeh, a condiment made from fenugreek seeds, and zhug, a chili-based condiment with ground cumin, coriander seeds, cardamom seeds, and peppercorns. Made with or without meat, it is served in a stone or metal bowl and eaten with flatbread that serves as a utensil for scooping.",
+        "imgURL": "https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/51yemenUNVQ.jpg"
+      }
+    ]
+  },
+  {
+    "name": " Norway",
+    "tradition": [
+      {
+        "title": " Brides Wear Crowns to Deflect Evil Spirits ",
+        "description": "One Norwegian tradition states that the bride will wear an ornate silver and gold crown that has small charms dangling all around it. When she moves, the tinkling sound is supposed to deflect evil spirits.",
+        "imgURL": "https://www.brides.com/thmb/GCh3e2mIvkCPFyJuK6ypC5mAykc=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2018__05__23__5b058e59c546e62bc1b4e872_trilby-glover-and-ian-brennan-wedding07-c6d4385b1d0b41d3a94478a2970b798b.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " Armenia",
+    "tradition": [
+      {
+        "title": " Balance Bread ",
+        "description": "Want to keep evil spirits far away from your marriage? Balance lavash flatbread on your shoulders. That's what newly married Armenian couples traditionally do. According to the custom, when the bride and groom enter their wedding reception—typically at the groom's house—they break a plate for good luck, then are given lavash and honey by the groom's mother. They balance the bread on their shoulders to ward off evil and eat spoonfuls of honey to symbolize happiness, and then the party really starts.",
+        "imgURL": "https://www.brides.com/thmb/Owwe8-mWXkZ6yGJDXRMzERwahRA=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-972902198-642cbbcfd51d44469e5fee4e7db447a6.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " Congo",
+    "tradition": [
+      {
+        "title": " No Smiling on the Wedding Day ",
+        "description": "While most about-to-be marrieds brim with excitement and anticipation, Congolese couples must keep their happiness in check. During their entire wedding day, from ceremony to reception, the two are not allowed to smile. If they do, it would mean they aren't serious about marriage.",
+        "imgURL": "https://www.brides.com/thmb/s3q6Y5lrS-xnalt24qsP_IiMr2I=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2016__10__24__580e43f1bf8b9b12e16e0c86_2015_bridescom-Editorial_Images-07-wedding-traditions-around-the-world-wedding-traditions-around-the-world-Large-wedding-traditions-around-the-world-congo-256e35c20a2847d3be8cf9af7b949630.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " China",
+    "tradition": [
+      {
+        "title": " Bow and Arrow ",
+        "description": "Let's hope the groom remembers to remove the arrowheads. In China, a prospective husband will shoot his bride with a bow and (head-less) arrow several times, then collects the arrows and breaks them during the ceremony, to ensure their love lasts forever.",
+        "imgURL": "https://www.brides.com/thmb/OSFbFZNxn1rtubHoUD1lQ-eOf98=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1188298409-29f74b01eab3406291239b7e5db81e6f.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " Greece",
+    "tradition": [
+      {
+        "title": " Shaving the Groom ",
+        "description": "Taking the term \"groomsman\" literally, on his wedding day, a Greek groom's best man, or \"koumparos,\" becomes his barber when he pulls out a razor and shaves his pal's face. But the groom's day also has a sweet side. After he's been freshly shaved, his new mother-in-law will feed him honey and almonds.",
+        "imgURL": "https://www.brides.com/thmb/UTYjUeUizW8ODlk7qoOm2oz3da0=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/zh5X3hMQ-e647a7dc34214ccab740e7d3376e6215.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " Guatemala",
+    "tradition": [
+      {
+        "title": " Breaking a Bell ",
+        "description": "As wedding reception hosts, the parents of Guatemalan grooms can do whatever they want, including smashing things. When the newlyweds arrive, it's a tradition that the groom's mom breaks a white ceramic bell filled with grains like rice and flour to bring prosperity to the couple.",
+        "imgURL": "https://www.brides.com/thmb/NXlcwOELHaOwiRvS310dTAR1a6w=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/sq-c9e2f4b732d8482998450cd1a7448ad0.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " Japan",
+    "tradition": [
+      {
+        "title": " A White Tsunokakushi ",
+        "description": "On her wedding day, a Japanese bride celebrating a traditional Shinto ceremony wears white from head to toe, including makeup, kimono, and a hood called a \"tsunokakushi.\" White denotes her maiden status, and the hood hides the so-called \"horns of jealousy\" she feels towards her mother-in-law.",
+        "imgURL": "https://www.brides.com/thmb/eZAWykAkVwMWB9y3Wn2zdK3-CKU=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-111650738-4badca61880d4ced91b5c7a0b877ab8d.jpg 715w"
+      }
+    ],
+    "outfit": [
+      {
+        "title": " Iro",
+        "imgURL": "https://imgix.ranker.com/user_node_img/50046/1000917613/original/japan-iro-uchikake-photo-u2?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375"
+      }
+    ]
+  },
+  {
+    "name": " Czech Republic",
+    "tradition": [
+      {
+        "title": " Placing a Baby on the Couple's Bed ",
+        "description": "Before a Czech bride and groom tie the knot, an infant is placed on the couple's bed to bless and enhance their fertility. Once they've wed, guests shower them with rice, peas, or lentils—also to promote fertility.",
+        "imgURL": "https://www.brides.com/thmb/Wg6Tkdel8nt8Py5A4Z1skkyCUPE=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2016__12__01__5840497ed0e168b04fcef0e4_06-Family-Focused-Lowell-Michigan-Backyard-Wedding-Vienna-Glenn-d5d7deb4045c45cc91d84960b3a75ec7.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " India",
+    "tradition": [
+      {
+        "title": " Joota Chupai ",
+        "description": "On the day of the wedding, in a ritual called \"Joota Chupai,\" an Indian bride's mischievous sisters and female cousins make off with the groom's shoes and demand ransom money for their safe return. That's one way to kick things up a notch!",
+        "imgURL": "https://www.brides.com/thmb/RVNluSD4HBD0zuv969MdijgJ6tw=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/sq-13218604b5ee44918d015a9ac5708127.jpg 715w"
+      }
+    ],
+    "outfit": [
+      {
+        "title": " Saree",
+        "description": "Shinto brides in Japan can choose to wear a colored outer robe called an iro-uchikake (which literally means \"colored robe\") over her white kimono. The typical colors are scarlet, orange or gold, and the bride is able to choose whichever one she likes.",
+        "imgURL": "https://imgix.ranker.com/user_node_img/50046/1000916493/original/india-saree-photo-u2?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375"
+      }
+    ]
+  },
+  {
+    "name": " Niger",
+    "tradition": [
+      {
+        "title": " Camel Dance ",
+        "description": "You've heard of the chicken dance, but in the West African country of Niger, the camel dance is done at the reception in the desert by a real camel. The humpback animal gets his groove on to a rhythmic drumbeat, all while surrounded by wedding guests.",
+        "imgURL": "https://www.brides.com/thmb/U6LY1p-fM7ozonnBVV6QYbVJbMQ=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__proteus__5938558d38ffd45dff85273c__11-d516383d9fcf4398965aa244c1084e30.jpeg 715w"
+      }
+    ]
+  },
+  {
+    "name": " Philippines",
+    "tradition": [
+      {
+        "title": " Releasing White Doves ",
+        "description": "After tying the knot, happy brides and grooms in the Philippines release a pair of white doves—one male, one female—into the air. The birds are said to represent a harmonious life together for the newly married couple.",
+        "imgURL": "https://www.brides.com/thmb/uJq9x4tlsoByKG2CulLdV8gnFHs=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fjks-31fbf61ffb784fc18d992c68b8c23a4b.png 715w"
+      }
+    ]
+  },
+  {
+    "name": " Venezuela",
+    "tradition": [
+      {
+        "title": " Couple Leaves Before the End of the Reception ",
+        "description": "Don't wait until the reception's over to chat up a Venezuelan couple—they could be long gone. It's good luck for the newlyweds to sneak away before the party has come to an end without getting caught; it's also good luck for whichever guest catches on that they're gone.",
+        "imgURL": "https://www.brides.com/thmb/3yMp0V3ra5WdpmObqBhyLHM_3X4=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2018__06__12__5b200de811252b2f05b4f359_ally-hilfiger-and-steve-hash-wedding09-879886b0eb4c4910860003fdf2f94553.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " Wales",
+    "tradition": [
+      {
+        "title": " Myrtle in the Bridal Bouquet ",
+        "description": "Welsh brides think not only of themselves on their wedding day, but also of their bridal party. The bridal bouquet includes myrtle, an herb that symbolizes love, and the bride gives a cutting to each of her bridesmaids. (Kate Middleton even included myrtle in her bouquet!) The theory goes that if a bridesmaid plants the myrtle cutting and it blooms, she'll be the next bride.",
+        "imgURL": "https://www.brides.com/thmb/qAOKq4-L0-TIYgyOtM_eW44OZrY=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/myrtle-6faad5805e4c464eae927160c3071ca9.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " Ireland",
+    "tradition": [
+      {
+        "title": " Keep One Foot on the Ground During First Dance ",
+        "description": "In Ireland, when the bride and groom are dancing, the bride must keep at least one foot on the floor at all times. Irish folklore states that if she doesn't, evil fairies will come and sweep her away.",
+        "imgURL": "https://www.brides.com/thmb/vS6ChnS6yFzyRswBloqVnkpPqWs=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/alex-and-david-wedding-40-55546d97198d43f29e70e42564f6961c.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " French Polynesia",
+    "tradition": [
+      {
+        "title": " Newlyweds Step on Relatives ",
+        "description": "On the Marquesas Islands of French Polynesia, once the wedding has come to an end, the relatives of the bride lay side-by-side, face down on the ground, while the bride and groom walk over them like a human rug.",
+        "imgURL": "https://www.brides.com/thmb/7pVOX8cIx0RJZB7vWYpWxSW8Ar4=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2016__10__24__580e4409ba4a5731dd534a06_2015_bridescom-Editorial_Images-07-wedding-traditions-around-the-world-Large-wedding-traditions-around-the-world-french-polynesia-3b229f6181f145ab910f8ab4ec7a54a1.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " Peru",
+    "tradition": [
+      {
+        "title": " Cake Pull ",
+        "description": "In Peruvian weddings, the cake is typically assembled with ribbons attached to charms, one of which is a fake wedding ring. During the reception, all the single women in attendance participate in the \"cake pull.\" Each participant grabs a ribbon, and the single lady who pulls out the fake wedding ring, per tradition, will be the next to get married.",
+        "imgURL": "https://www.brides.com/thmb/iXtNdsHAcVmrhONc1_9uR6Dq90g=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2019__04__04__5ca6524e8193317a954dea44_leah-and-herman-wedding19-ee696dc411f34e089010c3f3d1ccf44c.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " Romania",
+    "tradition": [
+      {
+        "title": " Hiding the Bride ",
+        "description": "In Romania, before the wedding, guests work together to playfully \"abduct\" the bride, whisking her away to an undisclosed location and demanding a \"ransom\" from the groom. Typical requests? A few bottles of alcohol, or—for those looking to really make the groom sweat—singing a love song in front of the entire party.",
+        "imgURL": "https://www.brides.com/thmb/XhKVtV2H_E7ZF-a8Ic2YhbeKxkg=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2018__01__09__5a54f943c121a50d1545df1d_hillary-and-gab-wedding2017122010_-1f2f5bddb2cd427b9bbce14e772f3643.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " Sweden",
+    "tradition": [
+      {
+        "title": " Stealing Kisses ",
+        "description": "In Sweden, whenever the bride leaves the table, all the ladies at the reception are free to steal a kiss from the groom. Whenever the groom leaves the room, all surrounding gentlemen are free to plant a peck on the bride, too.",
+        "imgURL": "https://www.brides.com/thmb/_Es-01Z3paXS3stto5speAxjaEU=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2018__12__06__5c097e575c7eee2d4408e2c2_nora-and-james-wedding03-7b06e0b0355d4204aeb433aad1224e42.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " South Korea",
+    "tradition": [
+      {
+        "title": " Falaka Ceremony ",
+        "description": "As part of the \"Falaka\" ceremony in South Korea, the groom's friends and family hold him down as they beat the bottoms of his feet with a stick or dried fish. In between beatings, he's asked trivia questions, so the custom is said to help strengthen his memory and his feet.",
+        "imgURL": "https://www.brides.com/thmb/_dvGzcGszn1JBBtzFm6gIbI3Hvk=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/megan-and-rajal-wedding-04-6ec4b66886d54ffdaef052bf984f5753.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": " Italy",
+    "tradition": [
+      {
+        "title": " La Serenata ",
+        "description": "The night before the wedding, an Italian groom may traditionally throw a surprise party outside his bride-to-be's window. \"La serenata\" begins with the groom, backed by musicians, serenading his fiancée. Then, it turns into a full-blown bash, complete with a lavish buffet and all the couple's friends and family.",
+        "imgURL": "https://www.brides.com/thmb/o_GLLOzw-Q24CgRYQ5UvOtNHDgk=/715x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2019__02__15__5c673da5c824ec25703ab3c9_GettyImages-1075620112-d02caca7b2934102a43842f1341cdbb8.jpg 715w"
+      }
+    ]
+  },
+  {
+    "name": "Austria ",
+    "outfit": [
+      {
+        "title": " Fairy Tale Dress and Veil",
+        "description": "Source: 2 Aussie Travellers",
+        "imgURL": "https://imgix.ranker.com/user_node_img/26/515131/original/austria-photo-u54?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375"
+      }
+    ]
+  },
+  {
+    "name": "Indonesia ",
+    "outfit": [
+      {
+        "title": " Kebaya",
+        "description": "",
+        "imgURL": "https://imgix.ranker.com/user_node_img/50046/1000916495/original/indonesia-kebaya-photo-u2?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375"
+      }
+    ]
+  }
+]
