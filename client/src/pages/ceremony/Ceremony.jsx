@@ -33,6 +33,7 @@ const Ceremony = () => {
   return (
     <div>
       <Dropdown
+        className="dropdown-ceremony"
         label="Choose the bride's culture"
         options={country}
         value={bride}
@@ -53,26 +54,28 @@ const Ceremony = () => {
       <button type="submit" onClick={handleClick}>
         Generate
       </button>
-      <Card
-        category="Food"
-        title="title"
-        // {bride.title}
-        // {bride.description}
-        img={bride.imgURL}
-        description="description"
-      />
-      <Card
-        category="Outfit"
-        title={groom.title}
-        img={groom.imgURL}
-        description={groom.description}
-      />
-      <Card
-        category="Tradition"
-        title={bride.title}
-        img={bride.imgURL}
-        description={bride.description}
-      />
+      <div className="card-container">
+        <Card
+          category="Food"
+          title="title"
+          // {bride.title}
+          // {bride.description}
+          img={bride.imgURL}
+          description="description"
+        />
+        <Card
+          category="Outfit"
+          title={groom.title}
+          img={groom.imgURL}
+          description={groom.description}
+        />
+        <Card
+          category="Tradition"
+          title={bride.title}
+          img={bride.imgURL}
+          description={bride.description}
+        />
+      </div>
     </div>
   );
 };
