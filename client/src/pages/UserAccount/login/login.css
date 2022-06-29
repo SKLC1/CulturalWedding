@@ -1,0 +1,21 @@
+.Login_Page {
+  margin-top: 60px;
+}
+
+.Login_card {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 25%;
+  height: 60vh;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.sign-up {
+  font-weight: bold;
+}

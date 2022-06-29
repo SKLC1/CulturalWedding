@@ -1,0 +1,17 @@
+.registiration-card {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 25%;
+  height: 60vh;
+  border-radius: 10px;
+}
+
+.Registraion_Page {
+  margin-top: 60px;
+}
+
+.log-in {
+  font-weight: bold;
+}
