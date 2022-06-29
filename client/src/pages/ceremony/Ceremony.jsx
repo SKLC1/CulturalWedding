@@ -7,14 +7,9 @@ import Card from "../../globalComponents/reusable/dropdown/Card";
 
 const Ceremony = () => {
   const [country, setCountry] = useState([]);
-  // useEffect(() => {
-  //   axios
-  //     .get("https://mixed-wedding.herokuapp.com/countries")
-  //     .then((res) => {
-  //       console.log(res.json);
-  //     })
-  //     .then((data) => setCountry(data.message));
-  // }, []);
+  const [bride, setBride] = useState("");
+  const [groom, setGroom] = useState("");
+
   useEffect(() => {
     const updateStats = async () => {
       const { data } = await axios.get(
@@ -24,34 +19,60 @@ const Ceremony = () => {
       setCountry(data);
     };
     updateStats();
-  });
+  }, []);
 
+  const handleClick = async () => {
+    console.log(bride);
+    console.log(groom);
+    const { data } = await axios.get(
+      `https://mixed-wedding.herokuapp.com/countries/${bride}/${groom}`
+    );
+    // console.log(data);
+    setCountry(data);
+  };
   return (
     <div>
       <Dropdown
         label="Choose the bride's culture"
         options={country}
-        value={country}
-        onChange={() => {
-          console.log("Brides clicked");
+        value={bride}
+        onChange={(val) => {
+          setBride(val);
         }}
       />
       <br />
       <Dropdown
         label="Choose the groom's culture"
         options={country}
-        value={country}
-        onChange={() => {
-          console.log("Groom clicked");
+        value={groom}
+        onChange={(val) => {
+          setGroom(val);
         }}
       />
       <br />
-      <button type="submit" onClick="">
+      <button type="submit" onClick={handleClick}>
         Generate
       </button>
-      <Card category="Food" title="Hummus" description="Nom Nom" img="" />
-      <Card />
-      <Card />
+      <Card
+        category="Food"
+        title="title"
+        // {bride.title}
+        // {bride.description}
+        img={bride.imgURL}
+        description="description"
+      />
+      <Card
+        category="Outfit"
+        title={groom.title}
+        img={groom.imgURL}
+        description={groom.description}
+      />
+      <Card
+        category="Tradition"
+        title={bride.title}
+        img={bride.imgURL}
+        description={bride.description}
+      />
     </div>
   );
 };

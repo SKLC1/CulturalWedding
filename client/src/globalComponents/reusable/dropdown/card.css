@@ -1,17 +1,26 @@
-.card-ceremony {
+.card-container {
   display: flex;
   flex-direction: row;
-  width: 20%;
-  height: 80vh;
+}
+
+.card-ceremony {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 70vh;
   border: 1px solid black;
   border-radius: 20px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px;
   align-items: center;
   justify-content: space-evenly;
 }
+
 .card-img {
-  width: 250px;
-  height: 250px;
+  width: 50%;
+  height: 50%;
   margin: 0 auto;
+}
+h1 {
+  color: #c7906d;
 }
