@@ -16,7 +16,7 @@ const Ceremony = () => {
       const { data } = await axios.get(
         `https://mixed-wedding.herokuapp.com/countries`
       );
-      data.unshift({value: "choose", label: "choose"});
+      data.unshift({ value: "choose", label: "choose" });
       // console.log(data);
       setCountry(data);
     };
@@ -57,29 +57,32 @@ const Ceremony = () => {
         Generate
       </button>
       <div className="card-container">
-
-      {res? <><Card
-        category="Food"
-        title={res[1].food[0].title}
-        img={res[1].food[0].imgURL}
-        description={res[1].food[0].description}
-      />
-      <Card
-        category="Outfit"
-        title={res[0].outfit[0].title}
-        img={res[0].outfit[0].imgURL}
-        description={res[0].outfit[0].description}
-      />
-      <Card
-        category="Tradition"
-        title={res[1].tradition[0].title}
-        img={res[1].tradition[0].imgURL}
-        description={res[1].tradition[0].description}
-      /></>: ""}
-     
+        {res ? (
+          <>
+            <Card
+              category="Food"
+              title={res[1].food[0].title}
+              img={res[1].food[0].imgURL}
+              description={res[1].food[0].description}
+            />
+            <Card
+              category="Outfit"
+              title={res[0].outfit[0].title}
+              img={res[0].outfit[0].imgURL}
+              description={res[0].outfit[0].description}
+            />
+            <Card
+              category="Tradition"
+              title={res[1].tradition[0].title}
+              img={res[1].tradition[0].imgURL}
+              description={res[1].tradition[0].description}
+            />
+          </>
+        ) : (
+          ""
+        )}
+      </div>
     </div>
-    </div>
-
   );
 };
 

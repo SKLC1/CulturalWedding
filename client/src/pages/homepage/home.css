@@ -6,4 +6,17 @@
   width: 100vw;
   height: 100vh;
   opacity: 0.5;
+<<<<<<< HEAD
+}
+.main {
+  text-align: center;
+}
+
+.home-image {
+  background-image: url("../../assets/wedding.jpg");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+=======
 } 
+>>>>>>> 29ef91b1de0ac8e1139170b2fb1ef2fc3ebf1827
