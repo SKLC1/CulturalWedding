@@ -68,24 +68,9 @@ const Ceremony = () => {
       <div className="card-container">
         {res ? (
           <>
-            <Card
-              category="Food"
-              title={res[1].food[0].title}
-              img={res[1].food[0].imgURL}
-              description={res[1].food[0].description}
-            />
-            <Card
-              category="Outfit"
-              title={res[0].outfit[0].title}
-              img={res[0].outfit[0].imgURL}
-              description={res[0].outfit[0].description}
-            />
-            <Card
-              category="Tradition"
-              title={res[1].tradition[0].title}
-              img={res[1].tradition[0].imgURL}
-              description={res[1].tradition[0].description}
-            />
+            <Card category="Food" data={res.food} />
+            <Card category="Outfit" data={res.outfit} />
+            <Card category="Tradition" data={res.tradition} />
           </>
         ) : (
           ""
