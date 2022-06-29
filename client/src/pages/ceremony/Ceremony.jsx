@@ -4,6 +4,7 @@ import axios from "axios";
 import "./ceremony.css";
 import Dropdown from "../../globalComponents/reusable/dropdown/Dropdown";
 import Card from "../../globalComponents/reusable/dropdown/Card";
+import { API } from "../../api/api";
 
 const Ceremony = () => {
   const [country, setCountry] = useState([]);
@@ -13,8 +14,8 @@ const Ceremony = () => {
 
   useEffect(() => {
     const updateStats = async () => {
-      const { data } = await axios.get(
-        `https://mixed-wedding.herokuapp.com/countries`
+      const { data } = await API.get(
+        `/countries`
       );
       data.unshift({ value: "choose", label: "choose" });
       // console.log(data);
@@ -26,12 +27,17 @@ const Ceremony = () => {
   const handleClick = async () => {
     // console.log(bride);
     // console.log(groom);
-    const { data } = await axios.get(
-      `https://mixed-wedding.herokuapp.com/countries/${bride}/${groom}`
+    const { data } = await API.get(
+      `/countries/${bride}/${groom}`
     );
     console.log(data);
     setRes(data);
   };
+  const check = (category) => {
+    if(res[0][category].length > 0) return 0;
+    if(res[1][category].length > 0) return 1;
+    return -1;
+  }
   return (
     <div>
       <h1 className="ceremony-title">Let's Mix Things Up</h1>
@@ -68,24 +74,24 @@ const Ceremony = () => {
       <div className="card-container">
         {res ? (
           <>
-            <Card
+            {check("food") !== -1? <Card
               category="Food"
-              title={res[1].food[0].title}
-              img={res[1].food[0].imgURL}
-              description={res[1].food[0].description}
-            />
-            <Card
+              title={res[check("food")].food[0].title}
+              img={res[check("food")].food[0].imgURL}
+              description={res[check("food")].food[0].description}
+            />: ""}
+            {check("outfit") !== -1?<Card
               category="Outfit"
-              title={res[0].outfit[0].title}
-              img={res[0].outfit[0].imgURL}
-              description={res[0].outfit[0].description}
-            />
-            <Card
+              title={res[check("outfit")].outfit[0].title}
+              img={res[check("outfit")].outfit[0].imgURL}
+              description={res[check("outfit")].outfit[0].description}
+            />: ""}
+            {check("tradition") !== -1?<Card
               category="Tradition"
-              title={res[1].tradition[0].title}
-              img={res[1].tradition[0].imgURL}
-              description={res[1].tradition[0].description}
-            />
+              title={res[check("tradition")].tradition[0].title}
+              img={res[check("tradition")].tradition[0].imgURL}
+              description={res[check("tradition")].tradition[0].description}
+            />: ""}
           </>
         ) : (
           ""

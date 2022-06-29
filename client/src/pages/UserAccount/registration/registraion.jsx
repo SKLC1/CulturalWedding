@@ -3,20 +3,30 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./registiration.css";
 import { API } from "../../../api/api.js"
+import { authContext, useAuthContext } from "../../../context/context";
 
 function Registraion() {
+  const {token, setToken, currentUser, setCurrentUser} = useAuthContext(authContext);
   const [signUpData, setSignUpData] = useState({
     email: "",
     password: "",
   });
   const { email, password } = signUpData;
-  const changeHandler = (e) => {
-    setSignUpData({ ...signUpData, [e.target.name]: [e.target.value] });
+  const changeHandler = (target) => {
+    setSignUpData({ ...signUpData, [target.name]: target.value});
   };
   const submitHandler = async(e) => {
-    e.preventDefault();
-    const {data} = await API.post('/users',{email: signUpData.email, password: signUpData.password});
-    console.log(data);
+    try {
+      e.preventDefault();
+      const {data} = await API.post('/users',{email: signUpData.email, password: signUpData.password});
+      setToken(data.token);
+      // console.log(data.user);
+      // console.log(setCurrentUser);
+      setCurrentUser(data.user);
+    } catch (e) {
+      console.log(e.message);
+    }
+    
   };
   return (
     <div className="Registraion_Page">
@@ -32,7 +42,7 @@ function Registraion() {
                 type="email"
                 name="email"
                 value={email}
-                onChange={changeHandler}
+                onChange={({target})=>changeHandler(target)}
               />
             </div>
             <div className="User-Password">
@@ -41,7 +51,7 @@ function Registraion() {
                 type="password"
                 name="password"
                 value={password}
-                onChange={changeHandler}
+                onChange={({target})=>changeHandler(target)}
               />
             </div>
             <div className="Registraion-Button">
