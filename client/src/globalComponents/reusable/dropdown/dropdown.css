@@ -1,3 +1,4 @@
+
 .ceremony-title {
   text-align: center;
   /* display: flex; */
@@ -57,4 +58,12 @@
   background-color: #e2c0ab;
   color: #572404;
   font-weight: 600;
+}
+.select-tag {
+margin-top: 10px;
+   width: 100px;
+   height: 25px;
+   text-align: center;
+   border-radius: 10px;
+   border-width: 1px;
 }
