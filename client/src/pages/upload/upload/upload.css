@@ -9,9 +9,23 @@
   align-items: center;
   justify-content: space-evenly;
   background-color: antiquewhite;
-  font-family: 'Lora', serif;;
+  font-family: 'Lora', serif;
+  text-align: center;
 }
 
 .btn-submit{
   font-family: 'Lora', serif;
+}
+.btn-submit {
+   border-radius: 20px;
+   width: 140px;
+   height: 40px;
+   background-color: rgb(249, 229, 154);
+   border-color: antiquewhite;
+   font-weight: bold;
+}
+
+.btn-submit:hover {
+  background-color: rgb(244, 220, 134);
+  
 }
