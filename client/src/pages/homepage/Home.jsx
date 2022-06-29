@@ -10,8 +10,9 @@ const Home = () => {
   return (
     <div className="home">
       <div style={{ backgroundImage: 'url("../../assets/wedding.jpg")' }}></div>
-  
-         <h4> Need to find a cultural<br/> touch for your wedding?</h4>
+         <div className="border-title">
+         Need to find a cultural<br/> touch for your wedding?
+         </div>
       
       <div className="btn-explore">
         <Link to="/ceremony">
