@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
 // import CultureCard from "./components/CultureCard";
 import "./ceremony.css";
-import Dropdown from "../../globalComponents/reusable/dropdown/Dropdown";
+
+import React, { useEffect, useState } from "react";
+
 import Card from "../../globalComponents/reusable/dropdown/Card";
+import Dropdown from "../../globalComponents/reusable/dropdown/Dropdown";
+import axios from "axios";
 
 const Ceremony = () => {
   const [country, setCountry] = useState([]);
@@ -55,6 +57,7 @@ const Ceremony = () => {
       <button type="submit" onClick={handleClick}>
         Generate
       </button>
+      <div className="cards">
       {res? <><Card
         category="Food"
         title={res[1].food[0].title}
@@ -73,6 +76,7 @@ const Ceremony = () => {
         img={res[1].tradition[0].imgURL}
         description={res[1].tradition[0].description}
       /></>: ""}
+      </div>
       
     </div>
   );
