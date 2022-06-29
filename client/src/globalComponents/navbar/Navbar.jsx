@@ -25,7 +25,10 @@ const Navbar = () => {
           {" "}
           <li className="li-about">About</li>
         </Link>
-        <li className="li-login">Log in</li>
+        <Link to="/login">
+          {" "}
+          <li className="li-login">Log in</li>
+        </Link>
       </ul>
     </div>
   );
