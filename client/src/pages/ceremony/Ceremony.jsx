@@ -1,24 +1,36 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 // import CultureCard from "./components/CultureCard";
 import "./ceremony.css";
 import Dropdown from "../../globalComponents/reusable/dropdown/Dropdown";
-
-const countryOptions = [
-  { label: "country1", value: "County1" },
-  { label: "country2", value: "County2" },
-  { label: "country3", value: "County3" },
-  { label: "country4", value: "County4" },
-  { label: "country5", value: "County5" },
-  { label: "country6", value: "County6" },
-];
+import Card from "../../globalComponents/reusable/dropdown/Card";
 
 const Ceremony = () => {
-  const [country, setCountry] = useState("country");
+  const [country, setCountry] = useState([]);
+  // useEffect(() => {
+  //   axios
+  //     .get("https://mixed-wedding.herokuapp.com/countries")
+  //     .then((res) => {
+  //       console.log(res.json);
+  //     })
+  //     .then((data) => setCountry(data.message));
+  // }, []);
+  useEffect(() => {
+    const updateStats = async () => {
+      const { data } = await axios.get(
+        `https://mixed-wedding.herokuapp.com/countries`
+      );
+      console.log(data);
+      setCountry(data);
+    };
+    updateStats();
+  });
+
   return (
     <div>
       <Dropdown
         label="Choose the bride's culture"
-        options={countryOptions}
+        options={country}
         value={country}
         onChange={() => {
           console.log("Brides clicked");
@@ -27,12 +39,19 @@ const Ceremony = () => {
       <br />
       <Dropdown
         label="Choose the groom's culture"
-        options={countryOptions}
+        options={country}
         value={country}
         onChange={() => {
           console.log("Groom clicked");
         }}
       />
+      <br />
+      <button type="submit" onClick="">
+        Generate
+      </button>
+      <Card category="Food" title="Hummus" description="Nom Nom" img="" />
+      <Card />
+      <Card />
     </div>
   );
 };
