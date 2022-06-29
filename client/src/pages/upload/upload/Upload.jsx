@@ -39,13 +39,25 @@ const Upload = () => {
   //   setCountry(event.target.value);
   // };
 
-  const handleCategoryChange = (event) => {
+  const handleChange = (event) => {
+    console.log(event.target.value);
+  };
+
+  const handleChangeCategory = (event) => {
     setCategory(event.target.value);
   };
 
-  const handleChange = (event) => {
+  const handleChangeTitle = (event) => {
     setTitle(event.target.value);
     setDescription(event.target.value);
+    setImgUrl(event.target.value);
+  };
+
+  const handleChangeDescription = (event) => {
+    setDescription(event.target.value);
+  };
+
+  const handleChangeImage = (event) => {
     setImgUrl(event.target.value);
   };
 
@@ -54,12 +66,13 @@ const Upload = () => {
   }, []);
 
   const getData = async () => {
-    const { data } = await axios.post(
+    const { data } = await axios.get(
       "https://mixed-wedding.herokuapp.com/countries"
     );
     setCountries(data);
   };
 
+  //uploading new Post
   const postData = () => {
     const newPost = {};
     axios.post("url", newPost);
@@ -80,16 +93,20 @@ const Upload = () => {
           label="choose category"
           options={categories}
           value={category}
-          onChange={handleChange}
+          onChange={handleChangeCategory}
         />
       </div>
       <div className="title-category">Title</div>
-      <input type="text" value={title} onChange={handleChange} />
-      <div className="description" value={description} onChange={handleChange}>
+      <input type="text" value={title} onChange={handleChangeTitle} />
+      <div
+        className="description"
+        value={description}
+        onChange={handleChangeDescription}
+      >
         description
       </div>
       <input type="text" />
-      <div className="img-category" value={imgUrl} onChange={handleChange}>
+      <div className="img-category" value={imgUrl} onChange={handleChangeImage}>
         image
       </div>
       <input type="text" />

@@ -1,19 +1,14 @@
 import React, { useContext, useEffect, useState } from "react";
 
-const multiCulturalContext = React.createContext(null);
+const authContext = React.createContext(null);
 
-const multiCulturalContextTemplate = {
-  state: {
-    newuser: [],
-  },
-};
-
-export const multiCulturalProvider = ({ children }) => {
+export const AuthProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState();
+  const [token, setToken] = useState();
 
   return (
-    <multiCulturalContext.Provider value={{ state }}>
+    <authContext.Provider value={{ token, setToken }}>
       {children}
-    </multiCulturalContext.Provider>
+    </authContext.Provider>
   );
 };
