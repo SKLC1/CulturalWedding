@@ -1,0 +1,23 @@
+.Header{
+  text-align: center;
+}
+.Description{
+  text-align: center;
+}
+
+.Team-Members {
+  border-style: groove;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 70px;
+  
+}
+
+.Team-Members div{
+  border-style: groove;
+}
+
+.Team-Members img{
+  width: 150px;
+  border-radius: 10px;
+}
