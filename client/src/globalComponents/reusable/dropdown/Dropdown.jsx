@@ -1,3 +1,5 @@
+import "./dropdown.css"
+
 import React from "react";
 import "./dropdown.css";
 
@@ -21,6 +23,7 @@ const Dropdown = ({ label, value, options, onChange }) => {
         </select>
       </label>
     </div>
+
   );
 };
 
