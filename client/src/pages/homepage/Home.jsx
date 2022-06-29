@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import background from "../../assets/wedding3.png";
+import background from "../../assets/wedding.jpg";
 
 const Home = () => {
   return (

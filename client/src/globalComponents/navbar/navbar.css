@@ -27,8 +27,13 @@ li {
 
 .li-home,
 .li-about,
-.li-ceremony {
+.li-ceremony,
+.li-share,
+.li-login {
   padding-top: 10px;
+}
+
+.li-login {
 }
 
 a {
