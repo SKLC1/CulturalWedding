@@ -1,2 +1,69 @@
+
+.ceremony-title {
+  text-align: center;
+  /* display: flex; */
+  margin: 0 auto;
+  display: block;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 3rem;
+  color: #8f3c09;
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.5);
+  width: 50%;
+  padding: 10px;
+}
+.dropdown-wraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.dropdown {
+  flex-direction: row;
+  margin: 15px;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
 .dropdown-ceremony {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+  color: #8f3c09;
+}
+.dropdown-title {
+  padding: 45px;
+  display: block;
+}
+.dropdown-button {
+  padding: 20px 30px;
+  border-radius: 7px;
+  background-color: #be703f;
+  color: #faebd7;
+  border: #faebd7;
+  font-size: 15px;
+  font-weight: 600;
+}
+.dropdown-button:hover {
+  background-color: #c7906d;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+.dropdown-select {
+  padding: 10px 12px;
+  border: #be703f;
+  border-radius: 4px;
+  background-color: #e2c0ab;
+  color: #572404;
+  font-weight: 600;
+}
+.select-tag {
+margin-top: 10px;
+   width: 100px;
+   height: 25px;
+   text-align: center;
+   border-radius: 10px;
+   border-width: 1px;
 }

@@ -1,13 +1,27 @@
-import React from "react";
 import "./home.css";
-import background from "../../assets/wedding.jpg";
+
+
+import {Link} from 'react-router-dom';
+import React from "react";
+import Spinner from "../../spinner/spinner";
+
+// import background from "../../assets/wedding.jpg";
 
 const Home = () => {
   return (
     <div className="home">
-
-      <div style={{ backgrounImage: 'url("../../assets/wedding.jpg")' }}></div>
-
+      <div style={{ backgroundImage: 'url("../../assets/wedding.jpg")' }}></div>
+         <div className="border-title">
+         Need to find a cultural<br/> touch for your wedding?
+         </div>
+      
+      <div className="btn-explore">
+        <Link to="/ceremony">
+        <button>Explore</button> 
+        </Link>
+      </div>
+      {/* //! for test only you can delete it later -- added by abed */}
+      <Spinner />
     </div>
   );
 };

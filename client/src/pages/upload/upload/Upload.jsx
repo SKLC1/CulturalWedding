@@ -1,9 +1,10 @@
+import "./upload.css";
+
 import React, { useState } from "react";
-import axios from "axios";
 
 import Dropdown from "../../../globalComponents/reusable/dropdown/Dropdown";
+import axios from "axios";
 import { useEffect } from "react";
-import "./upload.css";
 
 const countryOptions = [
   { label: "country1", value: "County1" },
@@ -80,37 +81,54 @@ const Upload = () => {
 
   return (
     <div className="card">
+
+
       <div className="card-dropdown">
         <Dropdown
-          label="choose country"
+          label="Choose Country"
           options={countries}
           value={countries}
           onChange={handleChange}
         />
       </div>
+
+
       <div className="card-category">
         <Dropdown
-          label="choose category"
+          label="Choose Category"
           options={categories}
           value={category}
           onChange={handleChangeCategory}
         />
       </div>
-      <div className="title-category">Title</div>
-      <input type="text" value={title} onChange={handleChangeTitle} />
+
+      <div className="title-field">
+        <div className="title-category">Title</div>
+        <input type="text" value={title} onChange={handleChangeTitle} />
+      </div>
+
+      <div className="img-field">
+      <div className="img-category" value={imgUrl} onChange={handleChangeImage}>
+        Upload Image
+      </div>
+      <input type="text" className="file-upload"/>
+      </div>
+
+      <div className="Description-field">
+      <div className="Description-text">Description</div>
       <div
         className="description"
         value={description}
         onChange={handleChangeDescription}
       >
-        description
       </div>
       <input type="text" />
-      <div className="img-category" value={imgUrl} onChange={handleChangeImage}>
-        image
       </div>
-      <input type="text" />
-      <button type="submit" onClick={postData}>
+
+
+
+
+      <button type="submit" onClick={postData} className="btn-submit">
         Submit
       </button>
     </div>

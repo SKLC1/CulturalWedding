@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/SKLC1/CulturalWedding#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "axios": "^0.27.2",
     "bcrypt": "^5.0.1",
     "concurrently": "^7.2.2",
