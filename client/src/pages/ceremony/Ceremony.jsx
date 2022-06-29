@@ -3,11 +3,7 @@ import CultureCard from "./components/CultureCard";
 import "./ceremony.css";
 
 const Ceremony = () => {
-  return (
-    <div>
-      <CultureCard />
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Ceremony;

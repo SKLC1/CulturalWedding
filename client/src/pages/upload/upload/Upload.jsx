@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import axios from "axios";
+
 import Dropdown from "../../../globalComponents/reusable/dropdown/Dropdown";
-import "./cultureCard.css";
+// import "../cultureCard.css";
 
 const mockData = [
   {
@@ -36,7 +38,7 @@ const categories = [
   { label: "Traditions", value: "Tradition" },
 ];
 
-const CultureCard = () => {
+const Upload = () => {
   const [country, setCountry] = useState("country");
   const [category, setCategory] = useState("");
   const [backenedData, setBackendData] = [];
@@ -53,6 +55,11 @@ const CultureCard = () => {
 
   const handleCategoryChange = (event) => {
     setCategory(event.target.value);
+  };
+
+  const getFromBackend = async () => {
+    await axios.get("");
+    console.log("submit");
   };
 
   return (
@@ -81,11 +88,17 @@ const CultureCard = () => {
           onChange={handleCategoryChange}
         />
       </div>
-      <div className="title-category">{category}</div>
+      <div className="title-category">Title</div>
+      <input type="text" />
       <div className="description">description</div>
+      <input type="text" />
       <div className="img-category">image</div>
+      <input type="text" />
+      <button type="submit" onClick={getFromBackend}>
+        Submit
+      </button>
     </div>
   );
 };
 
-export default CultureCard;
+export default Upload;

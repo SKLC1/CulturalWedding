@@ -18,6 +18,9 @@ const Navbar = () => {
         <Link to="/ceremony">
           <li className="li-ceremony">Ceremony</li>
         </Link>
+        <Link to="/share">
+          <li className="li-share">Share with us</li>
+        </Link>
         <Link to="/about">
           {" "}
           <li className="li-about">About</li>
