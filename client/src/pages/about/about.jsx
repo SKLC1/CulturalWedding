@@ -16,7 +16,7 @@ const About = () => {
         <div className="Photo-card">
           <a href=" https://github.com/SKLC1" target="_blank" rel="noreferrer" ><img src="https://avatars.githubusercontent.com/u/95040809?v=4" alt="segav_photo"></img>
             <div class="container">
-            <p>Segav</p>
+            <p>Segev</p>
             </div>
           </a>
         </div>

@@ -1,17 +1,19 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import logo from "../../assets/logo_1.png";
-
 import "./navbar.css";
+
+import { Link } from "react-router-dom";
+import React from "react";
+import logo from "../../assets/logo_1.png";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <ul>
-        <li className="logo">
+         {/* //! changed by abed --- > i added a new div for the ul items.. 
+         //? tell me if you get conflicts here. */}
+        <div className="logo">
           <img src={logo} width="50px" alt="logo" />
-        </li>
-
+        </div>
+        <div className="navbar-items">
+        <ul>
         <Link to="/">
           <li className="li-home">Home</li>
         </Link>
@@ -27,9 +29,12 @@ const Navbar = () => {
         </Link>
         <Link to="/login">
           {" "}
-          <li className="li-login">Log in</li>
+          <div className="login-border">
+          <li className="li-login">Login</li>
+          </div>
         </Link>
       </ul>
+    </div>
     </div>
   );
 };
