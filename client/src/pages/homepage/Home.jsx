@@ -7,6 +7,9 @@ import Spinner from "../../spinner/spinner";
 // import background from "../../assets/wedding.jpg";
 
 const Home = () => {
+<<<<<<< HEAD
+  return <div className="home"></div>;
+=======
   return (
     <div className="home">
       <div style={{ backgroundImage: 'url("../../assets/wedding.jpg")' }}></div>
@@ -23,6 +26,7 @@ const Home = () => {
       <Spinner />
     </div>
   );
+>>>>>>> 29ef91b1de0ac8e1139170b2fb1ef2fc3ebf1827
 };
 
 export default Home;

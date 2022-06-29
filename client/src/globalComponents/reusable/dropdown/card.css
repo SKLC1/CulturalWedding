@@ -9,21 +9,49 @@
 .card-ceremony {
   flex-direction: row;
   width: 25%;
-  height: 70vh;
+  height: 65vh;
   border-radius: 20px;
   margin: 15px;
   align-items: center;
   justify-content: space-evenly;
   border: 1px solid black;
-  padding: 15px;
+  padding: 25px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.5);
 }
-
+.card-ceremony p {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  line-height: 1.1;
+}
 .card-img {
-  width: 50%;
-  height: 50%;
+  max-width: 60%;
+  max-height: 60%;
   margin: auto;
+  border-radius: 7px;
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.5);
 }
 h1 {
   color: #c7906d;
   display: inline;
+}
+
+@media (max-width: 850px) {
+  .card-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .card-ceremony {
+    margin: 15px;
+    padding: 15px;
+    width: 70%;
+    height: 100%;
+  }
+  .card-ceremony p {
+    /* width: 80%; */
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
 }

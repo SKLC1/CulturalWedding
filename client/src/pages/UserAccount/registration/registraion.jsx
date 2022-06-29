@@ -1,19 +1,21 @@
+import axios from "axios";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./registiration.css";
+import { API } from "../../../api/api.js"
 
 function Registraion() {
-  const [data, setData] = useState({
+  const [signUpData, setSignUpData] = useState({
     email: "",
     password: "",
   });
-  const { email, password } = data;
+  const { email, password } = signUpData;
   const changeHandler = (e) => {
-    setData({ ...data, [e.target.name]: [e.target.value] });
+    setSignUpData({ ...signUpData, [e.target.name]: [e.target.value] });
   };
-  const submitHandler = (e) => {
+  const submitHandler = async(e) => {
     e.preventDefault();
-    //! add here the request to the backend
+    const {data} = await API.post('/users',{email: signUpData.email, password: signUpData.password});
     console.log(data);
   };
   return (
