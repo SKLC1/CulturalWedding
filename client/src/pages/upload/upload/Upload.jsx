@@ -106,7 +106,14 @@ const Upload = () => {
         <div className="title-category">Title</div>
         <input type="text" value={title} onChange={handleChangeTitle} />
       </div>
-      
+
+      <div className="img-field">
+      <div className="img-category" value={imgUrl} onChange={handleChangeImage}>
+        Upload Image
+      </div>
+      <input type="text" className="file-upload"/>
+      </div>
+
       <div className="Description-field">
       <div className="Description-text">Description</div>
       <div
@@ -118,14 +125,6 @@ const Upload = () => {
       <input type="text" />
       </div>
 
-
-
-      <div className="Description-field">
-      <div className="img-category" value={imgUrl} onChange={handleChangeImage}>
-        Upload Image
-      </div>
-      <input type="text" />
-      </div>
 
 
 
