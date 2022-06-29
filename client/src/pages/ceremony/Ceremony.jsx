@@ -9,26 +9,28 @@ const Ceremony = () => {
   const [country, setCountry] = useState([]);
   const [bride, setBride] = useState("");
   const [groom, setGroom] = useState("");
+  const [res, setRes] = useState("");
 
   useEffect(() => {
     const updateStats = async () => {
       const { data } = await axios.get(
         `https://mixed-wedding.herokuapp.com/countries`
       );
-      console.log(data);
+      data.unshift({value: "choose", label: "choose"});
+      // console.log(data);
       setCountry(data);
     };
     updateStats();
   }, []);
 
   const handleClick = async () => {
-    console.log(bride);
-    console.log(groom);
+    // console.log(bride);
+    // console.log(groom);
     const { data } = await axios.get(
       `https://mixed-wedding.herokuapp.com/countries/${bride}/${groom}`
     );
-    // console.log(data);
-    setCountry(data);
+    console.log(data);
+    setRes(data);
   };
   return (
     <div>
@@ -55,28 +57,29 @@ const Ceremony = () => {
         Generate
       </button>
       <div className="card-container">
-        <Card
-          category="Food"
-          title="title"
-          // {bride.title}
-          // {bride.description}
-          img={bride.imgURL}
-          description="description"
-        />
-        <Card
-          category="Outfit"
-          title={groom.title}
-          img={groom.imgURL}
-          description={groom.description}
-        />
-        <Card
-          category="Tradition"
-          title={bride.title}
-          img={bride.imgURL}
-          description={bride.description}
-        />
-      </div>
+
+      {res? <><Card
+        category="Food"
+        title={res[1].food[0].title}
+        img={res[1].food[0].imgURL}
+        description={res[1].food[0].description}
+      />
+      <Card
+        category="Outfit"
+        title={res[0].outfit[0].title}
+        img={res[0].outfit[0].imgURL}
+        description={res[0].outfit[0].description}
+      />
+      <Card
+        category="Tradition"
+        title={res[1].tradition[0].title}
+        img={res[1].tradition[0].imgURL}
+        description={res[1].tradition[0].description}
+      /></>: ""}
+     
     </div>
+    </div>
+
   );
 };
 

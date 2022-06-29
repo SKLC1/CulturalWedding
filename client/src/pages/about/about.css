@@ -1,23 +1,81 @@
+body {
+  background-color: antiquewhite;
+}
 .Header{
   text-align: center;
+
 }
-.Description{
+.Description {
   text-align: center;
+
+}
+.team-title{
+  text-align: center;
+  font-size: 40px;
+}
+
+.Team-Border{
+  padding: 20px;
+
 }
 
 .Team-Members {
-  border-style: groove;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  font-size: 70px;
-  
 }
 
-.Team-Members div{
-  border-style: groove;
+.Team-Members {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+@media (max-width: 929px) {
+  .Team-Members {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 520px) {
+  .Team-Members {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  }
 }
 
-.Team-Members img{
-  width: 150px;
-  border-radius: 10px;
+
+.Photo-card {
+  width: 80%;
+  background-color: rgb(239, 233, 225);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  border-radius: 20px;
+}
+
+.Photo-card p {
+  font-size: 20px;
+}
+
+
+.Photo-card img{
+   width: 100%;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+.container{
+  text-align: center;
+  padding: 10px 20px;
+  font-size: small;
+}
+
+.github-logo{
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-size: 30px;
+}
+
+.github-logo img{
+  width: 30px;
 }
