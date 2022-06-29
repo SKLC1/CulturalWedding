@@ -43,7 +43,8 @@ const fakeData = [
 
 countries.get("/", (req, res) => {
   try {
-    const list = fakeData.map((country) => country.name);
+    const list = []
+    fakeData.map((country) => list.push({label: country.name, value: country.name}));
     res.send(list);
   } catch (e) {
     res.status(500).send({ Error: e.message });
