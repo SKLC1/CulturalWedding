@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  height: 6vh;
+  height: 8vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,8 +8,8 @@
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 10;  font-family: 'Lato', sans-serif;
-  
+  z-index: 10;
+  font-family: "Lato", sans-serif;
 }
 
 .logo img {
@@ -18,7 +18,7 @@
   border-radius: 50%;
   position: absolute;
   left: 10px;
-  top: 7px; 
+  top: 7px;
 }
 
 ul {
@@ -48,7 +48,6 @@ a:hover {
   color: brown;
 }
 
-
 .login-border {
   background-color: rgb(255, 245, 232);
   margin-right: 10px;
@@ -58,7 +57,6 @@ a:hover {
   margin-left: 14px;
 }
 
-
 .login-border:hover {
   background-color: rgb(232, 212, 186);
   margin-right: 10px;
@@ -66,4 +64,3 @@ a:hover {
   padding-bottom: 4px;
   padding-right: 4px;
 }
-

@@ -13,7 +13,7 @@ const categories = [
 ];
 
 const Upload = () => {
-  const {token} = useToken(authContext);
+  const { token } = useToken(authContext);
   const [success, setSuccess] = useState(false);
   const [card, setCard] = useState({});
   const [countries, setCountries] = useState([]);
@@ -49,18 +49,18 @@ const Upload = () => {
   }, []);
 
   const getData = async () => {
-    const { data } = await API.get(
-      "/countries"
-    );
+    const { data } = await API.get("/countries");
     data.unshift({ value: "choose", label: "choose" });
     setCountries(data);
   };
 
   //uploading new Post
-  const postData = async() => {
+  const postData = async () => {
     try {
-      const newPost = {category, title, imgURL, description, name: country};
-      const {data}= await API.post("/countries", newPost, {headers: {Authorization: 'Bearer ' + token}});
+      const newPost = { category, title, imgURL, description, name: country };
+      const { data } = await API.post("/countries", newPost, {
+        headers: { Authorization: "Bearer " + token },
+      });
       setCard(data);
       setSuccess(true);
       setCountry("");
@@ -73,71 +73,70 @@ const Upload = () => {
     }
   };
 
-  if(success) {
+  if (success) {
     return (
       <div className="success">
-        <h1>{`you uploaded this card ${card.title}`}</h1>
+        <h1>{`You uploaded this card ${card.title}`}</h1>
       </div>
-    )
+    );
   }
 
   return (
     <div>
-      <h1>Share With Us!</h1>
-    <div className="card">
-    
-
-    {/* {console.log(title)}
+      <h1 className="upload-title"> Help Other Couples</h1>
+      <div className="card">
+        {/* {console.log(title)}
     {console.log(imgURL)}
     {console.log(description)} */}
 
+        <div className="card-dropdown">
+          <Dropdown
+            label="Choose Country"
+            options={countries}
+            value={country}
+            onChange={handleChange}
+          />
+        </div>
 
-      <div className="card-dropdown">
-        <Dropdown
-          label="Choose Country"
-          options={countries}
-          value={country}
-          onChange={handleChange}
-        />
+        <div className="card-category">
+          <Dropdown
+            label="Choose Category"
+            options={categories}
+            value={category}
+            onChange={handleChangeCategory}
+          />
+        </div>
+
+        <div className="title-field">
+          <div className="title-category">Title</div>
+          <input type="text" value={title} onChange={handleChangeTitle} />
+        </div>
+
+        <div className="img-field">
+          <div className="img-category">Upload Image</div>
+          <input
+            type="text"
+            className="file-upload"
+            value={imgURL}
+            onChange={handleChangeImage}
+          />
+        </div>
+
+        <div className="Description-field">
+          <div className="Description-text">Description</div>
+          <div className="description">
+            <input
+              type="text"
+              value={description}
+              onChange={handleChangeDescription}
+            />
+          </div>
+        </div>
+
+        <button type="submit" onClick={postData} className="btn-submit">
+          Submit
+        </button>
       </div>
-
-
-      <div className="card-category">
-        <Dropdown
-          label="Choose Category"
-          options={categories}
-          value={category}
-          onChange={handleChangeCategory}
-        />
-      </div>
-
-      <div className="title-field">
-        <div className="title-category">Title</div>
-        <input type="text" value={title} onChange={handleChangeTitle} />
-      </div>
-
-      <div className="img-field">
-      <div className="img-category" >
-        Upload Image
-      </div>
-      <input type="text" className="file-upload" value={imgURL} onChange={handleChangeImage}/>
-      </div>
-
-      <div className="Description-field">
-      <div className="Description-text">Description</div>
-      <div className="description">
-      <input type="text" value={description}
-        onChange={handleChangeDescription}/>
-      </div>
-      </div>
-
-
-
-
-      <button type="submit" onClick={postData} className="btn-submit">
-        Submit
-      </button>
-    </div>
     </div>
   );
 };

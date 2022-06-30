@@ -1,26 +1,40 @@
-
-.Header{
+body {
+  background-color: antiquewhite;
+}
+.Header {
+  /* text-align: center;
+  display: block;
+  padding: 15px;
+  font-weight: bold; */
   text-align: center;
-  
+  /* display: flex; */
+  margin: 0 auto;
+  display: block;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  color: #8f3c09;
+  box-shadow: 10px 10px 10px rgb(128 128 128 / 50%);
+  width: 50%;
+  padding: 10px;
 }
 .Description {
   text-align: center;
-
+  padding: 1.5rem;
 }
-.team-title{
+.team-title {
   text-align: center;
   font-size: 40px;
 }
 
-.Team-Border{
+.Team-Border {
   padding: 20px;
-
 }
 
 .Team-Members {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
 }
 
@@ -30,17 +44,16 @@
 }
 @media (max-width: 929px) {
   .Team-Members {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 520px) {
   .Team-Members {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
-
 
 .Photo-card {
   width: 80%;
@@ -54,20 +67,19 @@
   font-size: 20px;
 }
 
-
-.Photo-card img{
-   width: 100%;
-   border-top-left-radius: 20px;
-   border-top-right-radius: 20px;
+.Photo-card img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
-.container{
+.container-about {
   text-align: center;
   padding: 10px 20px;
   font-size: small;
 }
 
-.github-logo{
+.github-logo {
   position: absolute;
   left: 50%;
   bottom: 10px;
@@ -76,6 +88,6 @@
   font-size: 30px;
 }
 
-.github-logo img{
+.github-logo img {
   width: 30px;
 }

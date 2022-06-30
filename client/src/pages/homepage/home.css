@@ -4,33 +4,34 @@
 .home {
   background: url(../../assets/wedding.jpg) no-repeat center center/cover;
   width: 100vw;
-  height: 94vh;
+  height: 92vh;
   opacity: 0.8;
+}
 
-} 
-
-.btn-explore button{   
+.btn-explore button {
   position: relative;
-   top: 290px;
-   border-radius: 30px;
-   width: 160px;
-   height: 50px;
-   background-color: rgb(224, 205, 182);
-   border-width: 1px;
-   display:block;
-   margin-left: auto;
-   margin-right:auto;
-   font-family: 'Lora', serif;
-   font-size: 20px;
-   font-weight: bold;  
-   border-color: rgb(140, 139, 138);
-   color:#3c3937;
-   box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.8);
-  }
-  
-  .btn-explore button:hover {
-    background-color: rgb(207, 184, 159);
-    }
+  top: 290px;
+  border-radius: 30px;
+  width: 160px;
+  height: 50px;
+  background-color: rgb(224, 205, 182);
+  border-width: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: bold;
+  border-color: rgb(140, 139, 138);
+  color: #3c3937;
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.8);
+}
+
+.btn-explore button:hover {
+  background-color: rgb(251, 223, 194);
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
 /* .short-description p{
   font-size: 30px;
   margin: 0;
@@ -40,21 +41,20 @@
   margin: 0 auto;
 } */
 
- .border-title {
+.border-title {
   text-align: center;
   margin: 0 auto;
   position: relative;
   top: 200px;
   font-size: 40px;
-  color: rgb(0, 0, 0, 5); 
-  font-weight:bold;
-  font-family: 'Lora', serif;
+  color: rgb(0, 0, 0, 5);
+  font-weight: bold;
+  font-family: "Lora", serif;
   background-color: rgba(250, 235, 215, 0.56);
   width: 27%;
   align-items: center;
   border-radius: 5px;
   padding: 10px;
-  
 }
 
 @media (max-width: 800px) {
@@ -64,15 +64,15 @@
     position: relative;
     top: 200px;
     font-size: 40px;
-    color: rgb(0, 0, 0, 5); 
-    font-weight:bold;
-    font-family: 'Lora', serif;
+    color: rgb(0, 0, 0, 5);
+    font-weight: bold;
+    font-family: "Lora", serif;
     background-color: rgba(250, 235, 215, 0.56);
     width: 45%;
     align-items: center;
     border-radius: 5px;
     padding: 10px;
-    font-size: 30px; 
+    font-size: 30px;
   }
 }
 @media (max-width: 520px) {
@@ -82,15 +82,15 @@
     position: relative;
     top: 200px;
     font-size: 40px;
-    color: rgb(0, 0, 0, 5); 
-    font-weight:bold;
-    font-family: 'Lora', serif;
+    color: rgb(0, 0, 0, 5);
+    font-weight: bold;
+    font-family: "Lora", serif;
     background-color: rgba(250, 235, 215, 0.56);
     width: 50%;
     align-items: center;
     border-radius: 5px;
     padding: 10px;
-    font-size: 30px; 
+    font-size: 30px;
   }
 }
 
