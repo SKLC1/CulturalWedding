@@ -7,8 +7,7 @@ const About = () => {
    <div className="About-Page">
        <h1 className="Header">About the project</h1>
        <p className="Description">
-
-       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br/>aliquip ex ea commodo consequat. Duis int occaecat cupidatat non proident, sunt in culpa qui <br/>officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing 
+           This our Project for Appleseed's Academy.
        </p>
        <div className="Team-Border">
        <p className="team-title">Team</p>
