@@ -2,38 +2,35 @@
   display: flex;
   flex-direction: column;
   width: 25%;
-  height: 80vh;
+  height: 60vh;
   margin: auto;
   margin-top: 20px;
   align-items: center;
   justify-content: space-evenly;
   background-color: antiquewhite;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   text-align: center;
   font-size: 25px;
 }
 
 input {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
-.title-field input{
+.title-field input {
   margin-top: 10px;
   width: 200px;
   height: 25px;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   border-width: 1px;
-  
-  
 }
 
-.img-field input{
+.img-field input {
   width: 200px;
   height: 25px;
   border-radius: 10px;
   border-width: 1px;
-
 }
 .Description-field input {
   margin-top: 20px;
@@ -41,21 +38,33 @@ input {
   height: 150px;
   border-radius: 15px;
   border-width: 1px;
-  
-}
-.btn-submit{
-  font-family: 'Lora', serif;
 }
 .btn-submit {
-   border-radius: 20px;
-   width: 140px;
-   height: 40px;
-   background-color: rgb(249, 229, 154);
-   border-color: antiquewhite;
-   font-weight: bold;
+  font-family: "Lora", serif;
+}
+.btn-submit {
+  border-radius: 20px;
+  width: 140px;
+  height: 40px;
+  background-color: rgb(249, 229, 154);
+  border-color: antiquewhite;
+  font-weight: bold;
 }
 
 .btn-submit:hover {
   background-color: rgb(244, 220, 134);
+}
 
+.upload-title {
+  text-align: center;
+  /* display: flex; */
+  margin: 0 auto;
+  display: block;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 3rem;
+  color: #8f3c09;
+  box-shadow: 10px 10px 10px rgb(128 128 128 / 50%);
+  width: 50%;
+  padding: 10px;
 }

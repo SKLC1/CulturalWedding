@@ -10,12 +10,49 @@
   width: 25%;
   height: 60vh;
   border-radius: 10px;
+  border: 1px solid;
 }
 
 .title {
+  display: block;
   text-align: center;
 }
 
 .sign-up {
   font-weight: bold;
+}
+.User-Email-Lable,
+.User-Password-Lable {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.Login-Button {
+  padding: 20px 30px;
+  border-radius: 7px;
+  background-color: #be703f;
+  color: #faebd7;
+  border: #faebd7;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.Login-Button:hover {
+  background-color: #c7906d;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+.label-login {
+  color: #be703f;
+  font-weight: bold;
+  text-align: left;
+  font-size: 18px;
+}
+.Registration {
+  padding: 20px;
 }
