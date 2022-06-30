@@ -5,6 +5,7 @@ import "./ceremony.css";
 import Dropdown from "../../globalComponents/reusable/dropdown/Dropdown";
 import Card from "../../globalComponents/reusable/dropdown/Card";
 import { API } from "../../api/api";
+import axios from "axios";
 
 const Ceremony = () => {
   const [country, setCountry] = useState([]);
@@ -22,6 +23,26 @@ const Ceremony = () => {
     updateStats();
   }, []);
 
+  const translate = async() => {
+    const options = {
+      method: 'POST',
+      url: 'https://microsoft-translator-text.p.rapidapi.com/translate',
+      params: {
+        'to[0]': 'he',
+        'api-version': '3.0',
+        profanityAction: 'NoAction',
+        textType: 'plain'
+      },
+      headers: {
+        'content-type': 'application/json',
+        'X-RapidAPI-Key': 'f7fd3f0e2amshbb3a1fab3724950p138a11jsnffc79799ff2b',
+        'X-RapidAPI-Host': 'microsoft-translator-text.p.rapidapi.com'
+      },
+      data: `[{"Text":${res[0]}}]`
+    };
+    const {data} = await axios.post()
+  }
+
   const handleClick = async () => {
     // console.log(bride);
     // console.log(groom);
@@ -30,6 +51,7 @@ const Ceremony = () => {
     setRes(data);
   };
   const check = (category) => {
+    if(res.length === 0) return -1;
     if (res[0][category].length > 0) return 0;
     if (res[1][category].length > 0) return 1;
     return -1;
