@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 // import CultureCard from "./components/CultureCard";
 import "./ceremony.css";
 import Dropdown from "../../globalComponents/reusable/dropdown/Dropdown";
 import Card from "../../globalComponents/reusable/dropdown/Card";
 import { API } from "../../api/api";
+import axios from "axios";
 
 const Ceremony = () => {
   const [country, setCountry] = useState([]);
@@ -30,6 +30,7 @@ const Ceremony = () => {
     setRes(data);
   };
   const check = (category) => {
+    if(res.length === 0) return -1;
     if (res[0][category].length > 0) return 0;
     if (res[1][category].length > 0) return 1;
     return -1;
@@ -71,26 +72,26 @@ const Ceremony = () => {
         {res ? (
           <>
             {check("food") !== -1 ? (
-              <Card
+              <div className="container"><Card
                 category="Food"
                 cards= {res[check("food")].food}
-              />
+              /></div>
             ) : (
               ""
             )}
             {check("outfit") !== -1 ? (
-              <Card
+              <div className="container"><Card
                 category="Outfit"
                 cards= {res[check("outfit")].outfit}
-              />
+              /></div>
             ) : (
               ""
             )}
             {check("tradition") !== -1 ? (
-              <Card
+              <div className="container"><Card 
                 category="Tradition"
                 cards= {res[check("tradition")].tradition}
-              />
+              /></div>
             ) : (
               ""
             )}
