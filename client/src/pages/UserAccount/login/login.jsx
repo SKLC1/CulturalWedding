@@ -31,7 +31,7 @@ function Login() {
   if (success) {
     return (
       <div className="success">
-        <h1>{`you did it - ${currentUser.email}`}</h1>
+        <h1>{`You are now logged in with - ${currentUser.email}`}</h1>
       </div>
     );
   }

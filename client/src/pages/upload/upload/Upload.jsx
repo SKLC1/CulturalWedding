@@ -76,7 +76,7 @@ const Upload = () => {
   if (success) {
     return (
       <div className="success">
-        <h1>{`you uploaded this card ${card.title}`}</h1>
+        <h1>{`You uploaded this card ${card.title}`}</h1>
       </div>
     );
   }
