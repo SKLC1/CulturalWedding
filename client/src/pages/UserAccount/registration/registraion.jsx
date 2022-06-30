@@ -3,21 +3,40 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./registiration.css";
 import { API } from "../../../api/api.js"
+import { authContext, useAuthContext } from "../../../context/context";
 
 function Registraion() {
+  const { setToken, setCurrentUser, currentUser} = useAuthContext(authContext);
+  const [success, setSuccess] = useState(false);
   const [signUpData, setSignUpData] = useState({
     email: "",
     password: "",
   });
   const { email, password } = signUpData;
-  const changeHandler = (e) => {
-    setSignUpData({ ...signUpData, [e.target.name]: [e.target.value] });
+  const changeHandler = (target) => {
+    setSignUpData({ ...signUpData, [target.name]: target.value});
   };
   const submitHandler = async(e) => {
-    e.preventDefault();
-    const {data} = await API.post('/users',{email: signUpData.email, password: signUpData.password});
-    console.log(data);
+    try {
+      e.preventDefault();
+      const {data} = await API.post('/users',{email: signUpData.email, password: signUpData.password});
+      setToken(data.token);
+      setCurrentUser(data.user);
+      setSuccess(true);
+    } catch (error) {
+      console.log(error.message);
+    }
+    
   };
+
+  if(success) {
+    return (
+      <div className="success">
+        <h1>{`you did it - ${currentUser.email}`}</h1>
+      </div>
+    )
+  }
+
   return (
     <div className="Registraion_Page">
       <div className="registiration-card">
@@ -32,7 +51,7 @@ function Registraion() {
                 type="email"
                 name="email"
                 value={email}
-                onChange={changeHandler}
+                onChange={({target})=>changeHandler(target)}
               />
             </div>
             <div className="User-Password">
@@ -41,7 +60,7 @@ function Registraion() {
                 type="password"
                 name="password"
                 value={password}
-                onChange={changeHandler}
+                onChange={({target})=>changeHandler(target)}
               />
             </div>
             <div className="Registraion-Button">

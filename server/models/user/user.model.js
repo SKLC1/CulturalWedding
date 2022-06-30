@@ -21,7 +21,7 @@ const userSchema = mongoose.Schema({
       },
     },
   ],
-  uploads: [{ type: mongoose.Schema.Types.ObjectId }],
+  // uploads: [{ type: mongoose.Schema.Types.ObjectId, ref: "" }],
 });
 
 userSchema.methods.generateToken = async function () {
@@ -40,6 +40,13 @@ userSchema.statics.findByCredentials = async (email, password) => {
   if (error) throw new Error("failed to login");
 
   return user;
+};
+
+userSchema.methods.toJSON = function () {
+  const public = this.toObject();
+  delete public.password;
+  delete public.tokens;
+  return public;
 };
 
 userSchema.pre("save", async function (next) {

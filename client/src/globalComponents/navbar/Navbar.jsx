@@ -3,8 +3,10 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 import React from "react";
 import logo from "../../assets/logo_1.png";
+import { authContext, useUser } from "../../context/context.jsx";
 
 const Navbar = () => {
+  const {currentUser, setCurrentUser} = useUser(authContext);
   return (
     <div className="navbar">
          {/* //! changed by abed --- > i added a new div for the ul items.. 
@@ -27,7 +29,7 @@ const Navbar = () => {
           {" "}
           <li className="li-about">About</li>
         </Link>
-        <Link to="/login">
+        <Link to={`${currentUser? "/logout": "/login"}`}>
           {" "}
           <div className="login-border">
           <li className="li-login">Login</li>
