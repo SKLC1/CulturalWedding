@@ -6,7 +6,8 @@ import { API } from "../../../api/api.js"
 import { authContext, useAuthContext } from "../../../context/context";
 
 function Registraion() {
-  const {token, setToken, currentUser, setCurrentUser} = useAuthContext(authContext);
+  const { setToken, setCurrentUser, currentUser} = useAuthContext(authContext);
+  const [success, setSuccess] = useState(false);
   const [signUpData, setSignUpData] = useState({
     email: "",
     password: "",
@@ -20,14 +21,22 @@ function Registraion() {
       e.preventDefault();
       const {data} = await API.post('/users',{email: signUpData.email, password: signUpData.password});
       setToken(data.token);
-      // console.log(data.user);
-      // console.log(setCurrentUser);
       setCurrentUser(data.user);
-    } catch (e) {
-      console.log(e.message);
+      setSuccess(true);
+    } catch (error) {
+      console.log(error.message);
     }
     
   };
+
+  if(success) {
+    return (
+      <div className="success">
+        <h1>{`you did it - ${currentUser.email}`}</h1>
+      </div>
+    )
+  }
+
   return (
     <div className="Registraion_Page">
       <div className="registiration-card">

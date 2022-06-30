@@ -1,4 +1,5 @@
 const { Router } = require("express");
+const auth = require("../db/middleware/auth");
 const Country = require("../models/countries/countries.model");
 
 const countries = Router();
@@ -84,6 +85,36 @@ countries.get("/:country1/:country2", async (req, res) => {
     res.send(chosen);
   } catch (e) {
     res.status(500).send({ Error: e.message });
+  }
+});
+
+countries.post("/", auth, async (req, res) => {
+  try {
+    // console.log(req.body.name);
+    const country = await Country.findOne({ name: req.body.name });
+    // console.log(country);
+    if (!country)
+      return res
+        .status(404)
+        .send({ error: `there is no country ${req.body.name} in our DB` });
+    const newCard = {
+      title: req.body.title,
+      description: req.body.description,
+      imgURL: req.body.imgURL,
+    };
+    if (!newCard.title || !newCard.description || !newCard.imgURL)
+      return res.status(404).send({ error: `please give us full data` });
+    const category = req.body.category.toLowerCase();
+    // const arr = country[category].push(newCard);
+    // console.log(country);
+    // console.log(category);
+    // console.log(newCard);
+    country[category] = country[category].push(newCard);
+    console.log(country);
+    await country.save({ validateBeforeSave: false });
+    res.status(201).send(newCard);
+  } catch (e) {
+    res.status(500).send(e);
   }
 });
 
