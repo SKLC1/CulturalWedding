@@ -83,7 +83,7 @@ const Upload = () => {
 
   return (
     <div>
-      <h1 className="upload-title"> Contribute</h1>
+      <h1 className="upload-title"> Help Other Couples</h1>
       <div className="card">
         {/* {console.log(title)}
     {console.log(imgURL)}

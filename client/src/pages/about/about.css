@@ -12,7 +12,7 @@ body {
   display: block;
   font-size: 50px;
   font-weight: 600;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   color: #8f3c09;
   box-shadow: 10px 10px 10px rgb(128 128 128 / 50%);
   width: 50%;
@@ -20,6 +20,7 @@ body {
 }
 .Description {
   text-align: center;
+  padding: 1.5rem;
 }
 .team-title {
   text-align: center;
@@ -33,6 +34,8 @@ body {
 .Team-Members {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
 }
 
 .Team-Members {
