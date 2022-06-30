@@ -1,19 +1,21 @@
-import React from "react";
+import "./navbar.css";
+
 import { Link } from "react-router-dom";
+import React from "react";
 import logo from "../../assets/logo_1.png";
 import { authContext, useUser } from "../../context/context.jsx";
-
-import "./navbar.css";
 
 const Navbar = () => {
   const {currentUser, setCurrentUser} = useUser(authContext);
   return (
     <div className="navbar">
-      <ul>
-        <li className="logo">
+         {/* //! changed by abed --- > i added a new div for the ul items.. 
+         //? tell me if you get conflicts here. */}
+        <div className="logo">
           <img src={logo} width="50px" alt="logo" />
-        </li>
-
+        </div>
+        <div className="navbar-items">
+        <ul>
         <Link to="/">
           <li className="li-home">Home</li>
         </Link>
@@ -29,9 +31,12 @@ const Navbar = () => {
         </Link>
         <Link to={`${currentUser? "/logout": "/login"}`}>
           {" "}
-          <li className="li-login">{currentUser? "Log out": "Log in"}</li>
+          <div className="login-border">
+          <li className="li-login">Login</li>
+          </div>
         </Link>
       </ul>
+    </div>
     </div>
   );
 };
