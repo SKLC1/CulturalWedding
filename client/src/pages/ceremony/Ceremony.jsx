@@ -73,9 +73,7 @@ const Ceremony = () => {
             {check("food") !== -1 ? (
               <Card
                 category="Food"
-                title={res[check("food")].food[0].title}
-                img={res[check("food")].food[0].imgURL}
-                description={res[check("food")].food[0].description}
+                cards= {res[check("food")].food}
               />
             ) : (
               ""
@@ -83,9 +81,7 @@ const Ceremony = () => {
             {check("outfit") !== -1 ? (
               <Card
                 category="Outfit"
-                title={res[check("outfit")].outfit[0].title}
-                img={res[check("outfit")].outfit[0].imgURL}
-                description={res[check("outfit")].outfit[0].description}
+                cards= {res[check("outfit")].outfit}
               />
             ) : (
               ""
@@ -93,9 +89,7 @@ const Ceremony = () => {
             {check("tradition") !== -1 ? (
               <Card
                 category="Tradition"
-                title={res[check("tradition")].tradition[0].title}
-                img={res[check("tradition")].tradition[0].imgURL}
-                description={res[check("tradition")].tradition[0].description}
+                cards= {res[check("tradition")].tradition}
               />
             ) : (
               ""

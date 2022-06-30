@@ -1,21 +1,39 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { API } from "../../../api/api";
+import { authContext, useAuthContext } from "../../../context/context";
 import "./login.css";
 
 function Login() {
+  const {token, setToken, setCurrentUser, currentUser} = useAuthContext(authContext);
+  const [success, setSuccess] = useState(false);
   const [data, setData] = useState({
     email: "",
     password: "",
   });
   const { email, password } = data;
   const changeHandler = (e) => {
-    setData({ ...data, [e.target.name]: [e.target.value] });
+    setData({ ...data, [e.target.name]: e.target.value });
   };
-  const submitHandler = (e) => {
+  const submitHandler = async(e) => {
     e.preventDefault();
-    //! add here the request to the backend
-    console.log(data);
+    try {
+      const {data} = await API.post('/users/login',{email, password});
+        setToken(data.token);
+        setCurrentUser(data.user);
+        setSuccess(true);
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
   };
+  if(success) {
+    return (
+      <div className="success">
+        <h1>{`you did it - ${currentUser.email}`}</h1>
+      </div>
+    )
+  }
   return (
     <div className="Login_Page">
       <div className="Login_card">

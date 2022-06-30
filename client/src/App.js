@@ -9,12 +9,13 @@ import Navbar from "./globalComponents/navbar/Navbar";
 import React from "react";
 import Registraion from "./pages/UserAccount/registration/registraion";
 import Upload from "./pages/upload/upload/Upload";
+import { Logout } from "./pages/UserAccount/logout/Logout";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <AuthProvider>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ceremony" element={<Ceremony />} />
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Registraion />} />
+          <Route path="/logout" element={<Logout />} />
         </Routes>
       </AuthProvider>
     </div>

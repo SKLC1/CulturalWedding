@@ -9,7 +9,6 @@ const Navbar = () => {
   const {currentUser, setCurrentUser} = useUser(authContext);
   return (
     <div className="navbar">
-          {console.log(currentUser)}
       <ul>
         <li className="logo">
           <img src={logo} width="50px" alt="logo" />
@@ -28,7 +27,7 @@ const Navbar = () => {
           {" "}
           <li className="li-about">About</li>
         </Link>
-        <Link to="/login">
+        <Link to={`${currentUser? "/logout": "/login"}`}>
           {" "}
           <li className="li-login">{currentUser? "Log out": "Log in"}</li>
         </Link>
