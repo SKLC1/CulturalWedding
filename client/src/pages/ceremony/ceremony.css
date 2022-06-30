@@ -4,7 +4,7 @@
   flex-direction: row;
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
-  width: 20vw;
+  width: 22vw;
 }
 .child {
   scroll-snap-align: start;
