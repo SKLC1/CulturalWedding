@@ -1,0 +1,18 @@
+.container {
+  scroll-snap-type: x mandatory;
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+.child {
+  scroll-snap-align: start;
+  border-right: 1px solid #fff;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  /* min-width: 100vw;
+  height: 100vh; */
+  flex: 0 0 0 600px;
+}
+
+/* Each child is a different box */

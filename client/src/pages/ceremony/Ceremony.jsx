@@ -14,9 +14,7 @@ const Ceremony = () => {
 
   useEffect(() => {
     const updateStats = async () => {
-      const { data } = await API.get(
-        `/countries`
-      );
+      const { data } = await API.get(`/countries`);
       data.unshift({ value: "choose", label: "choose" });
       // console.log(data);
       setCountry(data);
@@ -27,17 +25,15 @@ const Ceremony = () => {
   const handleClick = async () => {
     // console.log(bride);
     // console.log(groom);
-    const { data } = await API.get(
-      `/countries/${bride}/${groom}`
-    );
+    const { data } = await API.get(`/countries/${bride}/${groom}`);
     console.log(data);
     setRes(data);
   };
   const check = (category) => {
-    if(res[0][category].length > 0) return 0;
-    if(res[1][category].length > 0) return 1;
+    if (res[0][category].length > 0) return 0;
+    if (res[1][category].length > 0) return 1;
     return -1;
-  }
+  };
   return (
     <div>
       <h1 className="ceremony-title">Let's Mix Things Up</h1>
@@ -74,18 +70,30 @@ const Ceremony = () => {
       <div className="card-container">
         {res ? (
           <>
-            {check("food") !== -1? <Card
-              category="Food"
-              res={res[check("food")].food}
-            />: ""}
-            {check("outfit") !== -1?<Card
-              category="Outfit"
-              res={res[check("outfit")].outfit}
-            />: ""}
-            {check("tradition") !== -1?<Card
-              category="Tradition"
-              res={res[check("tradition")].tradition}
-            />: ""}
+            {check("food") !== -1 ? (
+              <Card
+                category="Food"
+                cards= {res[check("food")].food}
+              />
+            ) : (
+              ""
+            )}
+            {check("outfit") !== -1 ? (
+              <Card
+                category="Outfit"
+                cards= {res[check("outfit")].outfit}
+              />
+            ) : (
+              ""
+            )}
+            {check("tradition") !== -1 ? (
+              <Card
+                category="Tradition"
+                cards= {res[check("tradition")].tradition}
+              />
+            ) : (
+              ""
+            )}
           </>
         ) : (
           ""

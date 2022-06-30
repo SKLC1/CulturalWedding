@@ -21,7 +21,7 @@ const userSchema = mongoose.Schema({
       },
     },
   ],
-  uploads: [{ type: mongoose.Schema.Types.ObjectId }],
+  // uploads: [{ type: mongoose.Schema.Types.ObjectId, ref: "" }],
 });
 
 userSchema.methods.generateToken = async function () {

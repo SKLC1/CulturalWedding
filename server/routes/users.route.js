@@ -18,6 +18,7 @@ users.post("/", async (req, res) => {
 
 users.post("/login", async (req, res) => {
   try {
+    console.log(req.body);
     const user = await User.findByCredentials(
       req.body.email,
       req.body.password
@@ -30,6 +31,7 @@ users.post("/login", async (req, res) => {
 });
 
 users.post("/logout", auth, async (req, res) => {
+  console.log(req.headers);
   try {
     req.user.tokens = req.user.tokens.filter((token) => {
       return token.token !== req.token;
