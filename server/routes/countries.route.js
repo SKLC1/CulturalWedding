@@ -67,6 +67,7 @@ countries.get("/", async (req, res) => {
 });
 
 countries.get("/:country1/:country2", async (req, res) => {
+  console.log(req.params);
   try {
     const countries = await Country.find();
     const chosen = countries.filter(

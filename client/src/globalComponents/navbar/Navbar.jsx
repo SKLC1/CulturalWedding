@@ -32,7 +32,7 @@ const Navbar = () => {
         <Link to={`${currentUser? "/logout": "/login"}`}>
           {" "}
           <div className="login-border">
-          <li className="li-login">Login</li>
+          <li className="li-login">{currentUser?"logout":"Login"}</li>
           </div>
         </Link>
       </ul>
