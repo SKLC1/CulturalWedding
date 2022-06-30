@@ -82,10 +82,15 @@ const Upload = () => {
   }
 
   return (
+    <div>
+      <h1>Share With Us!</h1>
     <div className="card">
+    
+
     {/* {console.log(title)}
     {console.log(imgURL)}
     {console.log(description)} */}
+
 
       <div className="card-dropdown">
         <Dropdown
@@ -132,6 +137,7 @@ const Upload = () => {
       <button type="submit" onClick={postData} className="btn-submit">
         Submit
       </button>
+    </div>
     </div>
   );
 };
