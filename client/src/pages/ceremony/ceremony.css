@@ -1,8 +1,10 @@
-/* .container {
+.container {
   scroll-snap-type: x mandatory;
   display: flex;
+  flex-direction: row;
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
+  width: 20vw;
 }
 .child {
   scroll-snap-align: start;
@@ -10,7 +12,7 @@
   padding: 1rem;
   text-align: center;
   position: relative;
-  min-width: 100vw;
+  min-width: 18vw;
   height: 100vh;
   flex: 0 0 0 600px;
-} */
+}
