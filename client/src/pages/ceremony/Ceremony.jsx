@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 // import CultureCard from "./components/CultureCard";
 import "./ceremony.css";
 import Dropdown from "../../globalComponents/reusable/dropdown/Dropdown";
@@ -22,26 +21,6 @@ const Ceremony = () => {
     };
     updateStats();
   }, []);
-
-  const translate = async() => {
-    const options = {
-      method: 'POST',
-      url: 'https://microsoft-translator-text.p.rapidapi.com/translate',
-      params: {
-        'to[0]': 'he',
-        'api-version': '3.0',
-        profanityAction: 'NoAction',
-        textType: 'plain'
-      },
-      headers: {
-        'content-type': 'application/json',
-        'X-RapidAPI-Key': 'f7fd3f0e2amshbb3a1fab3724950p138a11jsnffc79799ff2b',
-        'X-RapidAPI-Host': 'microsoft-translator-text.p.rapidapi.com'
-      },
-      data: `[{"Text":${res[0]}}]`
-    };
-    const {data} = await axios.post()
-  }
 
   const handleClick = async () => {
     // console.log(bride);
@@ -93,26 +72,26 @@ const Ceremony = () => {
         {res ? (
           <>
             {check("food") !== -1 ? (
-              <Card
+              <div className="container"><Card
                 category="Food"
                 cards= {res[check("food")].food}
-              />
+              /></div>
             ) : (
               ""
             )}
             {check("outfit") !== -1 ? (
-              <Card
+              <div className="container"><Card
                 category="Outfit"
                 cards= {res[check("outfit")].outfit}
-              />
+              /></div>
             ) : (
               ""
             )}
             {check("tradition") !== -1 ? (
-              <Card
+              <div className="container"><Card 
                 category="Tradition"
                 cards= {res[check("tradition")].tradition}
-              />
+              /></div>
             ) : (
               ""
             )}

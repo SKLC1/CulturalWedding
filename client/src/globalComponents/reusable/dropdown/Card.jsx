@@ -3,9 +3,8 @@ import "./card.css";
 
 const Card = ({ category, cards }) => {
   const cardsCarusel = cards.map((card) => {
-    {console.log(card)}
     return (
-      <div className="card-ceremony" key={card.title}>
+      <div className="card-ceremony child" key={card.title}>
         <h1>{category}</h1>
         <h3>{card.title}</h3>
         <img className="card-img" src={card.imgURL.replace(" 715w", "")} alt={card.title}></img>
@@ -13,7 +12,7 @@ const Card = ({ category, cards }) => {
       </div>
     );
   });
-  return <div>{cardsCarusel}</div>;
+  return <>{cardsCarusel}</>;
 };
 
 export default Card;
